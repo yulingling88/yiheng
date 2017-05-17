@@ -1,0 +1,137 @@
+
+
+/*头部背景图*/
+.business-bg .bg1 {
+	background: url(../img/合作伙伴bg_01.jpg) no-repeat center;
+	text-align: center;
+	color: #fff;
+	padding-top: 10%;
+}
+.business-bg .bg1 p {
+	margin: 0;
+	font-size: 16px;
+
+}
+.business-bg .bg1 h1 {
+	margin: 0;
+	font-size: 50px;
+}
+
+.business-bg .bg2 p {
+	margin: 0;
+	font-size: 16px;
+}
+
+.business-bg .bg2 {
+	background: url(../img/合作伙伴bg_02.jpg) no-repeat center;
+	padding-bottom: 20px;
+}
+.business-bg .bg1 h3 {
+	color: #ea0117;
+	font-size: 25px;
+
+}
+.business-bg .bg1 h5 {
+	color: #e8414b;
+	font-size: 20px;
+}
+.business-bg .bg2 h3 {
+	/*color: #ea0117;*/
+	font-size: 25px;
+	margin: 0;
+	text-align: center;
+	line-height: 55px;
+
+}
+.business-bg .bg2 h5 {
+	/*color: #e8414b;*/
+	font-size: 20px;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 10px;
+
+
+}
+.business-bg .bg2 ul {
+	overflow: hidden;
+	text-align: center;
+}
+.business-bg .bg2 ul  li {
+	display: inline-block;
+	margin-right: 5px;
+}
+.business-bg .bg2 ul img  {
+}
+/*.business-bg .bg {
+	height: 1198px;
+}
+.business-bg .bg img {
+	width: 100%;
+}*/
+/*@media screen and (min-width: 1000px) {
+	.business-bg .bg img {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.business-bg .bg img {
+		width: 110%;
+	}
+}
+
+@media screen and (min-width: 400px) {
+	.business-bg .bg img {
+		width: 120%;
+	}
+}*/
+
+/*食品、母婴*/
+.food {
+	padding-top: 5%;
+}
+.food ul {
+	text-align: center;
+}
+.food ul li {
+	display: inline-block;
+	text-align: center;
+}
+.food ul li.line {
+	width: 2px;
+    	height: 21px;
+    	background: #000;
+    	margin: 0 10px;
+}
+
+
+/*个护、滋补、医药*/
+.gehu1 {
+	background: url(../img/合作伙伴bg_04.jpg) no-repeat  center;
+	/*padding-top: 5%;
+	padding-bottom: 5%;*/
+}
+.business-gehu  ul {
+	overflow: hidden;
+	text-align: center;
+	/*padding-top: 5%;*/
+	/*padding-bottom: 5%;*/
+}
+.business-gehu  ul li {
+	/*float : left;*/
+	display: inline-block;
+	text-align: center;
+	margin-right: 5px;
+}
+.business-ion {
+	background: url(../img/合作伙伴bg_05.jpg) no-repeat  center;
+}
+
+
+/*联系地址*/
+.business-link {
+	background: #be1e1e;
+}
+.business-link .local-link  div {
+	display: inline-block;
+}

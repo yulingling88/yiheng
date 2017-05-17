@@ -1,0 +1,192 @@
+[ 2017-03-02T09:26:18+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T09:55:29+08:00 ] ::1 /thinkphp/index.php/Home/Goods/index
+ERR: 1146:Table 'testguest.tg_tg_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tg_tg_article`
+
+[ 2017-03-02T09:57:05+08:00 ] ::1 /thinkphp/index.php/Home/Goods/index
+ERR: 1146:Table 'testguest.tg_tg_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tg_tg_article`
+
+[ 2017-03-02T09:57:07+08:00 ] ::1 /thinkphp/index.php/Home/Goods/index
+ERR: 1146:Table 'testguest.tg_tg_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tg_tg_article`
+
+[ 2017-03-02T10:00:08+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T10:00:12+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T10:00:16+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T10:00:36+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T10:00:41+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T10:00:47+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T10:17:32+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T10:17:49+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T10:17:55+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T10:18:09+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T10:23:49+08:00 ] ::1 /thinkphp/index.php/Home/Goods/uq1
+ERR: 非法操作:uq1
+
+[ 2017-03-02T10:52:23+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T10:55:55+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T10:56:01+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T10:57:42+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:00:48+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:00:49+08:00 ] ::1 /thinkphp/index.php/Home/public/1286241247.jpg.html
+ERR: 无法加载控制器:Public
+
+[ 2017-03-02T11:00:49+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:00:50+08:00 ] ::1 /thinkphp/index.php/Home/public/1286241247.jpg.html
+ERR: 无法加载控制器:Public
+
+[ 2017-03-02T11:00:52+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:00:52+08:00 ] ::1 /thinkphp/index.php/Home/public/1286241247.jpg.html
+ERR: 无法加载控制器:Public
+
+[ 2017-03-02T11:01:24+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:01:26+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:01:39+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:02:02+08:00 ] ::1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:03:36+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:05:21+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:07:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:08:37+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:08:53+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/10
+ERR: 非法操作:10
+
+[ 2017-03-02T11:08:59+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/10
+ERR: 非法操作:10
+
+[ 2017-03-02T11:09:00+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:09:05+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/10
+ERR: 非法操作:10
+
+[ 2017-03-02T11:09:10+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:10:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:10:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:11:05+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/5
+ERR: 非法操作:5
+
+[ 2017-03-02T11:11:11+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/5
+ERR: 非法操作:5
+
+[ 2017-03-02T11:11:11+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/5index
+ERR: 非法操作:5index
+
+[ 2017-03-02T11:11:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T11:17:55+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/5
+ERR: 非法操作:5
+
+[ 2017-03-02T11:18:00+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/5
+ERR: 非法操作:5
+
+[ 2017-03-02T11:18:02+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Goods/public/js/blog.js
+ERR: 非法操作:public
+
+[ 2017-03-02T13:55:12+08:00 ] ::1 /thinkphp/index.php/Home/Test/demo1
+ERR: 参数错误或者未定义:i
+
+[ 2017-03-02T13:55:25+08:00 ] ::1 /thinkphp/index.php/Home/Test/demo1?i=1$j=2
+ERR: 参数错误或者未定义:j
+
+[ 2017-03-02T14:36:50+08:00 ] ::1 /thinkphp/Home/Text/demo2
+ERR: 无法加载控制器:Text
+
+[ 2017-03-02T14:45:01+08:00 ] ::1 /thinkphp/Home/Test/demo4
+ERR: 模板不存在:./Application/Home/View/Test/up3.html.html
+
+[ 2017-03-02T14:45:07+08:00 ] ::1 /thinkphp/Home/Test/demo4
+ERR: 模板不存在:./Application/Home/View/Test/up3.html
+
+[ 2017-03-02T14:45:07+08:00 ] ::1 /thinkphp/Home/Test/demo4
+ERR: 模板不存在:./Application/Home/View/Test/up3.html
+
+[ 2017-03-02T14:45:07+08:00 ] ::1 /thinkphp/Home/Test/demo4
+ERR: 模板不存在:./Application/Home/View/Test/up3.html
+
+[ 2017-03-02T14:45:08+08:00 ] ::1 /thinkphp/Home/Test/demo4
+ERR: 模板不存在:./Application/Home/View/Test/up3.html
+
+[ 2017-03-02T14:45:08+08:00 ] ::1 /thinkphp/Home/Test/demo4
+ERR: 模板不存在:./Application/Home/View/Test/up3.html
+
+[ 2017-03-02T14:45:37+08:00 ] ::1 /thinkphp/Home/Test/demo4
+ERR: 模板不存在:./Application/Home/View/Test/demo4.html
+
+[ 2017-03-02T14:45:38+08:00 ] ::1 /thinkphp/Home/Test/demo4
+ERR: 模板不存在:./Application/Home/View/Test/demo4.html
+
+[ 2017-03-02T14:45:38+08:00 ] ::1 /thinkphp/Home/Test/demo4
+ERR: 模板不存在:./Application/Home/View/Test/demo4.html
+
+[ 2017-03-02T14:45:38+08:00 ] ::1 /thinkphp/Home/Test/demo4
+ERR: 模板不存在:./Application/Home/View/Test/demo4.html
+
+[ 2017-03-02T14:45:38+08:00 ] ::1 /thinkphp/Home/Test/demo4
+ERR: 模板不存在:./Application/Home/View/Test/demo4.html
+
+[ 2017-03-02T14:45:39+08:00 ] ::1 /thinkphp/Home/Test/demo4
+ERR: 模板不存在:./Application/Home/View/Test/demo4.html
+
+[ 2017-03-02T14:45:39+08:00 ] ::1 /thinkphp/Home/Test/demo4
+ERR: 模板不存在:./Application/Home/View/Test/demo4.html
+

@@ -1,0 +1,365 @@
+
+
+
+/*=====导航栏设置======*/
+.head.container-fluid {
+	width: 100%;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+}
+.head .row {
+	/*margin: 0 auto;
+	padding-top: 1px;*/
+}
+/*.head .inner {
+	margin: 0 auto;
+	max-width: 87%;
+	padding-top: 1px;
+
+}*/
+.head .head-nav {
+	overflow: hidden;
+	padding-top: 24px;
+	padding-bottom: 10px;
+}
+.head .head-logo {
+	padding: 0;
+
+}
+
+.head-nav ul.nav {
+	/*float: right;*/
+	line-height:40px;
+	/*display: flex;*/
+	/*justify-content: space-around;*/
+	padding: 0;
+	/**padding: 0;*/
+}
+.head-nav ul.nav li {
+	color: #fff;
+	position: relative;
+	/*padding: 0 2px;*/
+	float: left;
+	width: 75px;
+}
+
+.head-nav ul.nav li.phone {
+	width: 145px;
+}
+
+.head ul.nav li a {
+	background: transparent;
+	text-align: center;
+	padding: 0;
+	/**padding: 0;*/
+	color: #fff;
+}
+.head ul.nav li.active span {
+	display: none;
+    width: 60px;
+    height: 3px;
+    background: #f6e73e;
+    margin: 0 auto;
+} 
+.head ul.nav li.active span.one {
+    background: #f6e73e;
+} 
+.head ul.nav li.active span.two {
+    background: #e60012;
+} 
+.head ul.nav li.active span.three {
+    background: #00ace5;
+} 
+.head ul.nav li.active span.four {
+    background: #f9b121;
+} 
+.head ul.nav li.active span.five {
+    background: #a4a9ac;
+} 
+/*二级导航栏*/
+ul.nav li ul.er-nav {
+	margin-top: 5px;
+	display: none;
+	
+}
+.head ul.nav li.active ul.er-nav li {
+	width: 100%;
+	text-align: center;
+	line-height: 20px;
+
+}
+.head ul.nav li.active ul.er-nav li a {
+	color: #fff;
+}
+
+.head ul.nav li.active ul.er-nav li a:hover {
+	text-decoration: none;
+}
+.head .guoqi {
+	vertical-align: middle;
+    display: inline-block;
+    width: 28px;
+    height: 20px;
+    background: url(../img/header_bg.png) 2px 1px no-repeat;
+}
+.head .phone-ion {
+	display: inline-block;
+    width: 30px;
+    height: 25px;
+    vertical-align: middle;
+    background: url(../img/header_bg.png) -26px 1px no-repeat;
+}
+.head .active:hover .er-nav {
+	/*display: block;*/
+}
+
+/*媒体查询*/
+@media screen and (min-width: 800px) {
+   
+}
+
+
+/*=================轮播图================*/
+/*图片*/
+
+.lun {
+	position: relative;
+}
+.lun .lun-pic {
+	overflow: hidden;
+	clear: both;
+	margin: 0;
+}
+.lun .lun-pic li {
+	margin-top: -20px!important;
+}
+
+.lun .lun-pic li:first-child {
+	background: url(../img/banner01.jpg) no-repeat center;
+
+}
+.lun .lun-pic li.lun2 {
+	background: url(../img/banner02.jpg) no-repeat center;
+
+}
+.lun .lun-pic li.lun3 {
+	background: url(../img/banner03.jpg) no-repeat center;
+
+}
+/*.lun .lun-pic li {
+	background: url(../img/banner01.jpg) no-repeat center;
+
+}*/
+.lun .lun-pic li {
+	text-align: center;
+	padding-top: 180px;
+	padding-bottom: 280px;
+	color: #fff;
+	float：left;
+	display: none;
+}
+.lun .lun-pic .active {
+	display: block;
+}
+.lun .lun-pic {
+	position: relative;
+}
+.lun .lun-pic div {
+	position: absolute;
+    top: 170px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+	
+}
+.lun .lun-pic h1 {
+	font-size: 40px;
+    font-weight: bold;
+
+}
+.lun .lun-pic p {
+	margin: 1px 0;
+	font-size: 16px;
+}
+.lun .lun-pic a {
+	display: inline-block;
+	text-align: center;
+	padding: 5px 15px;
+	/**padding: 0.5px 1.5px;*/
+	border: 2px solid #fff;
+	font-weight: bold;
+	margin-top: 20px;
+	color: #fff;
+
+}
+.lun .lun-pic a:hover {
+	text-decoration: none;
+}
+
+
+/*索引*/
+.lun-num {
+	bottom: 70px!important;
+}
+.lun .lun-num {
+	margin: 0 auto;
+	position: absolute;
+	bottom: 110px;
+	left: 50%;
+	margin-left: -50px;
+}
+.lun .lun-num li {
+	float: left;
+	margin-right: 20px;
+}
+/*显示的轮播索引*/
+.lun-num .shownum {
+	width: 30px;
+	height: 10px;
+	background: #efd91d;
+	border-radius: 15px;
+
+}
+/*隐藏的轮播索引*/
+.lun-num li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #717275;
+	cursor: pointer;
+}
+
+/*=====了解易恒、合作伙伴====*/
+.knowyi {
+	color: #fff;
+    font-size: 28px;
+    position: relative;
+    top: -60px;
+    text-align: center;
+}
+.session-yiheng {
+	background: #000;
+	overflow: hidden;
+	margin-top: -100px;
+}
+.session-yiheng h1 {
+	text-align: center;
+}
+/*了解易恒*/
+.know {
+	width: 100%;
+	margin-top: 40px;
+    overflow: hidden;
+}
+.know h1 {
+	color: #fff;
+}
+.know .know-all {
+	overflow: hidden;
+	margin: 0 auto;
+	/*text-align: center;*/
+	width: 825px;
+    padding: 0;
+    
+}
+.know .know-all div {
+	width: 165px;
+    padding: 55px 25px;
+    float: left;
+    color: #fff;
+	cursor: pointer;
+}
+.know .know-all div.odd {
+	background: #252525;
+}
+.know .know-all div.even {
+	background: #363636;
+}
+.know  p {
+	margin: 0;
+}
+.know  h2 {
+	margin: 6px 0;
+	font-size:  20px;
+}
+.know .know-all div span {
+	width: 24px;
+	height: 4px;
+	display: block;
+	-webkit-transition: width 0.5s ease-in-out;
+	-moz-transition: width 0.5s ease-in-out;
+}
+.know .know-all div:hover span {
+	width: 100%;
+	/*color: #fff;*/
+}
+.know .know-all div span.color1 {
+	background: #f9b121;
+}
+.know .know-all div span.color2 {
+	background: #e60012;
+}
+.know .know-all div span.color3 {
+	background: #01b8af;
+}
+.know .know-all div span.color4 {
+	background: #00ace5;
+}
+.know .know-all div span.color5 {
+	background: #fd5420;
+}
+
+/*合作伙伴*/
+.hezuo {
+	margin-top: 50px;
+}
+.hezuo h1 {
+	font-size: 28px;
+	color: #fff;
+}
+.hezuo .hezuo-ion1 {
+	text-align: center;
+}
+.hezuo .hezuo-ion1 div {
+	display: inline-block;
+	/*margin: 0 auto;*/
+}
+.hezuo .hezuo-ion1 div +div {
+	margin-left: 2%;
+}
+.hezuo .hezuo-ion2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.hezuo .hezuo-ion2 div {
+	display: inline-block;
+	/*margin: 0 auto;*/
+}
+.hezuo .hezuo-ion2 div +div {
+	margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

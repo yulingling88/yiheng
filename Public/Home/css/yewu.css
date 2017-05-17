@@ -1,0 +1,191 @@
+
+
+/*=================易恒业务==========================*/
+
+.yewu {
+	background: url(../img/易恒业务bg.jpg) center;
+	/*padding-top: 3px;*/
+	position: relative;
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+.yewu .yewu-bg img {
+	width: 100%;
+}
+.yewu .inner {
+	/*float: left;*/
+	width: 100%;
+	/*padding-top: 30px;*/
+	/*position: absolute;
+	top: 60px;*/
+}
+.yewu .inner h1 {
+	/*color: #fff;*/
+	font-size: 28px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 2px;
+}
+.yewu .inner .yewu-jieshao {
+	text-align: center;
+	line-height: 30px;
+	margin-top: 30px;
+	/*margin-bottom: 135px;*/
+}
+.yewu .yewu-ion {
+	text-align: center;
+	margin-top: 36px;
+    /*margin-bottom: 60px;*/
+}
+.yewu .yewu-ion div {
+	display: inline-block;
+}
+.yewu .yewu-ion div img {
+	width: 100%;
+}
+
+
+/*============成功案例=============*/
+
+.case {
+	/*background: #1d1d1d;*/
+	background: url(../img/成功案例bg.jpg);
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+.case h1 {
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	/*margin-top: 70px;*/
+	margin-bottom: 68px;
+}
+.case .case-ion {
+	text-align: center;
+}
+.case .case-ion div {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+
+/*===============全球办公点===============*/
+
+.local {
+	width: 100%;
+	padding: 0!important;
+}
+.local img {
+	width: 100%;
+}
+
+.local-link {
+	background: #be1e1e;
+	padding: 30px 0;
+	margin: 0;
+}
+.local-link>div {
+	display: inline-block;
+}
+.local-link>div p {
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.address span {
+	display: inline-block;
+	width: 20px;
+	height: 30px;
+	margin-right: 10px;
+	background: url(../img/tubiao.png)0px 5px no-repeat;
+}
+.email span {
+	display: inline-block;
+	width: 23px;
+	height: 25px;
+	background: url(../img/tubiao.png)-20px 1px no-repeat;
+	margin-right: 10px;
+}
+.call span {
+	display: inline-block;
+	width: 17px;
+	height: 26px;
+	background: url(../img/tubiao.png)-43px 1px no-repeat;
+	margin-right: 10px;
+}
+
+.local .local-link .link-text {
+	display: inline-block;
+}
+
+
+/*=============底部链接===================*/
+
+.foot {
+	background: #1d1d1d;
+	/*padding: 0!important;*/
+}
+
+.foot .foot-nav {
+	text-align: center;
+	overflow: hidden;
+	padding-top: 30px;
+    margin-bottom: 40px;
+}
+.foot .foot-nav>div {
+	/*display: inline-block;*/
+	/*float: left;*/
+}
+
+.foot .foot-nav h3 {
+	/*font-size: 40px;*/
+	color: #fff;
+}
+
+.foot .foot-nav a {
+	/*font-size: 21px;*/
+	color: #fff;
+	line-height: 25px;
+	display: inline-block;
+}
+.foot .foot-nav span {
+	/*font-size: 21px;*/
+	color: #fff;
+	display: none;
+	/*line-height: 25px;*/
+}
+
+
+.foot .foot-nav li:hover span {
+	display: inline-block;
+}
+
+.foot .foot-nav a:hover {
+	text-decoration: none;
+}
+
+.foot .foot-us p {
+	text-align: center;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+.foot .foot-us p i {
+	display: inline-block;
+    width: 2px;
+    height: 12px;
+    background: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
