@@ -1,9 +1,9 @@
-<div class="head container-fluid">
+<?php if (!defined('THINK_PATH')) exit();?><div class="head container-fluid">
 		<!-- 导航条 -->
 		<!--<div class="row">-->
 			<div class="head-nav row">
 				<div class="head-logo col-lg-2 col-md-2 col-sm-2 col-xm-2col-lg-offset-1 col-md-offset-1">
-					<img src="__IMG__/yhLogo.png" alt="">
+					<img src="/yiheng/Public/Home/img/yhLogo.png" alt="">
 				</div>
 				<ul class="nav col-lg-7 col-md-8 col-sm-9 pull-right ">
 					<li class="active">
@@ -11,7 +11,7 @@
 						<span class="one"></span>
 						<ul class="er-nav">
 							<li><a href="##">易恒</a></li>
-							<li><a href="{:U('Other/history')}">历史</a></li>
+							<li><a href="##">历史</a></li>
 							<li><a href="##">荣耀</a></li>
 						</ul>
 					</li>
@@ -19,8 +19,8 @@
 						<a href="##">产品服务</a>
 						<span class="two"></span>
 						<ul class="er-nav">
-							<li><a href="{:U('Other/service')}">服务内容</a></li>
-							<li><a href="{:U('Other/business')}">合作伙伴</a></li>
+							<li><a href="##">服务内容</a></li>
+							<li><a href="<?php echo U('Other/business');?>">合作伙伴</a></li>
 							<li><a href="##">我们的优势</a></li>
 							<li><a href="##">服务案例</a></li>
 							<li><a href="##">自有品牌</a></li>
@@ -47,7 +47,7 @@
 						<a href="##">联系我们</a>
 						<span class="five"></span>
 						<ul class="er-nav">
-							<li><a href="{:U('Other/hezuo')}">寻求合作</a></li>
+							<li><a href="<?php echo U('Other/hezuo');?>">寻求合作</a></li>
 							<li><a href="##">联系方式</a></li>
 						</ul>
 					</li>

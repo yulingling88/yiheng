@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="/yiheng/Public/Home/css/reset.css">
 	<link rel="stylesheet" href="/yiheng/Public/Home/css/style.css">
 	<link rel="stylesheet" href="/yiheng/Public/Home/css/yewu.css">
+	<link rel="stylesheet" href="/yiheng/Public/Home/css/service.css">
 	<link rel="stylesheet" href="/yiheng/Public/Home/css/business.css">
 	<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 	<link rel="stylesheet" href="/yiheng/Public/Home/css/bootstrap.css">
@@ -21,13 +22,14 @@
 	<![endif]-->
 </head>
 <body>
+	
 <!--头部导航 -->
-	<div class="head container-fluid">
+<div class="head container-fluid">
 		<!-- 导航条 -->
 		<!--<div class="row">-->
 			<div class="head-nav row">
 				<div class="head-logo col-lg-2 col-md-2 col-sm-2 col-xm-2col-lg-offset-1 col-md-offset-1">
-					<img src="/yiheng/Public/Home/img/yhLogo.png" alt="">
+					<img src="/yiheng/Public/Home/img/header_logo.png" alt="">
 				</div>
 				<ul class="nav col-lg-7 col-md-8 col-sm-9 pull-right ">
 					<li class="active">
@@ -111,155 +113,93 @@
 		<!--</div>-->
 </div> 
 
-<!-- 头部背景图 -->
-	<div class="business-bg">
-		<div class="bg1">
-			<h1>PARTNER</h1>
-			<h3>Business partner</h3>
-			<h5>合作伙伴</h5>
-			<div class="downrow">
-				<p>ECMOHO</p>
-				<p></p>
+
+<!-- 头图 -->
+<div class="service-bg">
+	<img src="/yiheng/Public/Home/img/servicebg.jpg" alt="">
+	<div class="service-text center-block container">
+		<h1 class="">SERVICE</h1>
+		<div class="service-mokuai row">
+			<div class="col-lg-8 col-xs-8 row1">
+				<div class="row">
+					<a href="##" class="center-block mokuai col-lg-3 col-md-3  col-sm-3  col-xs-6 odd">
+						<!-- <span> -->
+							<p>服务模块</p>
+							<h2>ABOUT</h2>
+							<span class="color1"></span>
+						<!-- </span> -->
+					</a>
+					<a href="##" class="center-block mokuai col-lg-3 col-md-3  col-sm-3  col-xs-6 even">
+						<!-- <span> -->
+							<p>合作伙伴</p>
+							<h2>FAMILY</h2>
+							<span class="color2"></span>
+						<!-- </span> -->
+					</a>
+					<a href="##" class="center-block mokuai col-lg-3 col-md-3  col-sm-3  col-xs-6 odd">
+						<!-- <span> -->
+							<p>我们的优势</p>
+							<h2>ADVANTAGE</h2>
+							<span class="color3"></span>
+						<!-- </span> -->
+					</a>
+					<a href="##" class="center-block mokuai col-lg-3 col-md-3  col-sm-3  col-xs-6 even">
+						<!-- <span> -->
+							<p>服务案例</p>
+							<h2>CASES</h2>
+							<span class="color4"></span>
+						<!-- </span> -->
+					</a>
+				</div>
 			</div>
-			<p>保健品</p>
-			<h4>HEALTH-CARE</h4>
-		</div>
-		<div class="bg2">
-			<!-- <h3>保健品</h3>
-			<h5>HEALTH-CARE</h5> -->
-			<ul>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_03.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_06.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_08.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_10.jpg" alt="">
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_16.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_17.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_18.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_19.jpg" alt="">
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_24.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_25.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_26.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_27.jpg" alt="">
-				</li>
-			</ul>
-		</div>	
-	</div>
-
-<!-- 食品、母婴 -->
-	<div class="food">
-		<ul>
-			<li>
-				<p>食品</p>
-				<h2>FOOD&BEVERAGE</h2>
-			</li>
-			<li class="line"></li>
-			<li>
-				<p>母婴</p>
-				<h2>MOM&BABY</h2>
-			</li>
-		</ul>
-		<div class="food-ion">
-			<ul>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_32.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_33.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_34.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_35.jpg" alt=""></li>
-			</ul>
-			<ul>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_36.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_37.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_38.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_39.jpg" alt=""></li>
-			</ul>
-			<ul>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_40.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_41.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_42.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_43.jpg" alt=""></li>
-			</ul>
-			<ul>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_44.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_45.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_46.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_47.jpg" alt=""></li>
-			</ul>
+			
 		</div>
 	</div>
+</div>
 
-<!-- 个护、滋补、医药 -->
-<div class="business-gehu">
-	<div class="gehu-bg1">
+<!-- 服务模块 -->
+<div class="service-module">
+	<div class="module-bg1">
+		<!-- <img src="/yiheng/Public/Home/img/service-bg1.jpg" alt=""> -->
 	</div>
-	<div class="gehu-bg2">
+	<div class="module-bg2">
+		<!-- <img src="/yiheng/Public/Home/img/service-bg2.jpg" alt=""> -->
 	</div>
-	<div class="gehu-content">
-		<ul class="gehu-text">
-			<li class="">
-				<p>个护</p>
-				<h2>PERSONAL CASE</h2>
-			</li>
-			<li class="line"></li>
-			<li class="">
-				<p>滋补</p>
-				<h2>TONIC</h2>
-			</li>
-			<li class="line"></li>
-			<li class="">
-				<p>医药</p>
-				<h2>PHARMCEUTICAL</h2>
-			</li>
-		</ul>
-		<ul class="gehu-ion">
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_52.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_53.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_54.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_55.jpg" alt=""></li>
-		</ul>
-		
-		<ul class="gehu-ion">
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_60.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_61.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_62.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_63.jpg" alt=""></li>
-		</ul>
-		<ul class="gehu-ion">
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_68.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_69.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_70.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_71.jpg" alt=""></li>
-		</ul>
+</div>
+
+<!-- 专业系统 system -->
+
+<div class="system container-fluid">
+	<div class="row inner">
+		<div class="col-lg-9 col-sm-10 col-xs-10">
+			<h1>SYSTEM<span class="line"></span></h1>
+			<p>易恒健康代理运用的专业体系</p>
+			<div class="row content">
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+					<img src="/yiheng/Public/Home/img/service1.jpg" alt="">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+					<img src="/yiheng/Public/Home/img/service2.jpg" alt="">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+					<img src="/yiheng/Public/Home/img/service3.jpg" alt="">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+					<img src="/yiheng/Public/Home/img/service4.jpg" alt="">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+					<img src="/yiheng/Public/Home/img/service5.jpg" alt="">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+					<img src="/yiheng/Public/Home/img/service6.jpg" alt="">
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 
 <!-- 联系我们 -->
-<div class="business-link">
+<div class="business-link container-fluid">
 	<div class="local-link row">
 		<div class="address col-lg-4 col-lg-offset-1">
 			<span></span>
@@ -285,19 +225,14 @@
 	</div>
 </div>
 
-
-
-
-
-	
 <!--底部链接-->
-	<div class="foot container-fluid">
+<div class="foot container-fluid">
 	<div class="foot-nav row">
 		<div class="col-lg-2 col-md-2 col-sm-2">
 			<h3>了解易恒</h3>
 			<ul>
 				<li><a href="##">企业简介</a><span>></span></li>
-				<li><a href="<?php echo U('Other/history');?>">发展历程</a><span> ></span></li>
+				<li><a href="##">发展历程</a><span> ></span></li>
 				<li><a href="##">企业荣耀</a><span> ></span></li>
 			</ul>
 		</div>
@@ -355,7 +290,5 @@
 	<script src="/yiheng/Public/Home/js/head.js"></script>
 	<!--<script src="js/rem.js"></script>-->
 	<!--<script src="js/bootstrap.min.js"></script>-->
-
-
 </body>
 </html>

@@ -1,5 +1,8 @@
 
-
+body { 
+	min-width: 400px; 
+	width:expression(document.body.clientWidth < 400? "400px": "auto" ); 
+} 
 
 /*=====导航栏设置======*/
 .head.container-fluid {
@@ -24,6 +27,7 @@
 	overflow: hidden;
 	padding-top: 24px;
 	padding-bottom: 10px;
+	margin: 0;
 }
 .head .head-logo {
 	padding: 0;
@@ -45,7 +49,9 @@
 	float: left;
 	width: 75px;
 }
-
+.head-nav ul.nav li.dropdown {
+	width: 60px;
+}
 .head-nav ul.nav li.phone {
 	width: 145px;
 }
@@ -115,10 +121,32 @@ ul.nav li ul.er-nav {
 .head .active:hover .er-nav {
 	/*display: block;*/
 }
-
+/*替换nav2*/
+.head-nav .nav2 {
+   	display: none;
+}
+.head-nav .nav2 .nav2-ion {
+	display: inline-block;
+}
+.head-nav .nav2 div{
+   	display: inline-block;
+}
 /*媒体查询*/
-@media screen and (min-width: 800px) {
-   
+@media screen and (max-width: 768px) {
+   /*导航条*/
+   .head-nav .nav {
+   		display: none;
+   }
+   .head-nav .nav2 {
+   		display: block;
+   }
+
+
+
+
+
+
+
 }
 
 

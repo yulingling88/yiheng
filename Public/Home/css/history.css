@@ -1,0 +1,126 @@
+
+
+/*头图*/
+.history {
+	width: 100%;
+	height: 288px;
+	padding-top: 8%;
+	text-align: center;
+	background: url(../img/history-bg.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+    	position: relative;
+}
+.history h1 {
+	font-size: 50px;
+	font-weight: bolder;
+	color: #fff;
+	line-height: 70px;
+    	margin: 0;
+    	position: relative;
+}
+
+.history h1 span {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #dfb731;
+	position: absolute;
+	top: -4px;
+ 	margin-left: -15px;
+	left: 50%;
+}
+
+
+/*主体部分*/
+/*主体部分--标题*/
+.history-main {
+	padding: 0!important;
+}
+
+.history-main .row {
+	width: 100%;
+	margin: 0;
+}
+.history-main .row>div {
+	height: 80px;
+	text-align: center;
+	color: #fff;
+}
+.history-main .row>div h3 {
+	padding-top: 15px;
+	margin: 0;
+	margin-bottom: 4px;
+}
+.history-main .nav1 {
+	background: url(../img/hr.jpg);
+}
+.history-main .nav2 {
+	background: url(../img/hrhover.jpg);
+}
+
+.history-main .row a {
+	text-decoration: none;
+	color: #fff;
+}
+.history-main .row a:hover {
+	color: #fff;
+}
+
+/*主体部分--内容*/
+.history-main .main-content {
+	background: #19191b;
+	text-align: center;
+	padding-top: 30px;
+}
+.main-content>p {
+	font-size: 16px;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.main-content>h1 {
+	color: #fff;
+	margin-top: 0;
+	font-size: 50px;
+}
+
+.main-content .center {
+	float: none;
+	margin: 0 auto;
+}
+.main-content .center .odd {
+	height: auto;
+}
+
+.main-content .center .odd div {
+	float: 	right;	
+}
+
+.main-content .center .odd h2 {
+	text-align: right;
+	color: #deb72b;
+	line-height: 45px;
+	position: relative;	
+}
+.main-content .center .odd h4 {
+	text-align: right;
+}
+.main-content .center .odd h2 span {
+	width: 30px;
+	height: 4px;
+	background: #deb72b;
+	position: absolute;	
+	bottom: 0;
+	right: 0;
+}
+
+
+
+
+
+
+
+
+

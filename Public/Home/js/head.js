@@ -1,4 +1,9 @@
 
+// 导航条划过一屏，背景为黑
+
+
+
+
 //头部导航条 hover
 $(".active").hover(function(){
 	$(this).children("span").css("display","block")

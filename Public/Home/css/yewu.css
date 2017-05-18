@@ -83,7 +83,8 @@
 .local-link {
 	background: #be1e1e;
 	padding: 30px 0;
-	margin: 0;
+	margin: 0!important;
+	text-align: center;
 }
 .local-link>div {
 	display: inline-block;
@@ -92,7 +93,9 @@
 	color: #fff;
 	margin-bottom: 0;
 }
-
+.local-link p.link-up {
+	text-align: left;
+}
 .address span {
 	display: inline-block;
 	width: 20px;

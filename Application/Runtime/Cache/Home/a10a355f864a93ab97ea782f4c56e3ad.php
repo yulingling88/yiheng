@@ -1,27 +1,27 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-	<meta name="description" content="">  
-	<meta name="author" content="">  
-	<title>易恒</title>
-	<link rel="stylesheet" href="/yiheng/Public/Home/css/reset.css">
-	<link rel="stylesheet" href="/yiheng/Public/Home/css/style.css">
-	<link rel="stylesheet" href="/yiheng/Public/Home/css/yewu.css">
-	<link rel="stylesheet" href="/yiheng/Public/Home/css/business.css">
-	<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
-	<link rel="stylesheet" href="/yiheng/Public/Home/css/bootstrap.css">
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta name="description" content="">  
+    <meta name="author" content="">  
+    <title>易恒</title>
+    <link rel="stylesheet" href="/yiheng/Public/Home/css/hezuo.css">
+    <link rel="stylesheet" href="/yiheng/Public/Home/css/reset.css">
+    <link rel="stylesheet" href="/yiheng/Public/Home/css/style.css">
+    <link rel="stylesheet" href="/yiheng/Public/Home/css/yewu.css">
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="/yiheng/Public/Home/css/bootstrap.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-<!--头部导航 -->
+
 	<div class="head container-fluid">
 		<!-- 导航条 -->
 		<!--<div class="row">-->
@@ -110,156 +110,42 @@
 			</div>
 		<!--</div>-->
 </div> 
-
-<!-- 头部背景图 -->
-	<div class="business-bg">
-		<div class="bg1">
-			<h1>PARTNER</h1>
-			<h3>Business partner</h3>
-			<h5>合作伙伴</h5>
-			<div class="downrow">
-				<p>ECMOHO</p>
-				<p></p>
-			</div>
-			<p>保健品</p>
-			<h4>HEALTH-CARE</h4>
+<!-- 背景图 -->
+	<div class="hezuo-bg">
+		<div class="hezuo-bg1">
+			<!-- <img src="/yiheng/Public/Home/img/hezuobg1.jpg" alt="" class="img-responsive"> -->
 		</div>
-		<div class="bg2">
-			<!-- <h3>保健品</h3>
-			<h5>HEALTH-CARE</h5> -->
-			<ul>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_03.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_06.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_08.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_10.jpg" alt="">
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_16.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_17.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_18.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_19.jpg" alt="">
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_24.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_25.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_26.jpg" alt="">
-				</li>
-				<li>
-					<img src="/yiheng/Public/Home/img/合作伙伴logo_27.jpg" alt="">
-				</li>
-			</ul>
-		</div>	
-	</div>
-
-<!-- 食品、母婴 -->
-	<div class="food">
-		<ul>
-			<li>
-				<p>食品</p>
-				<h2>FOOD&BEVERAGE</h2>
-			</li>
-			<li class="line"></li>
-			<li>
-				<p>母婴</p>
-				<h2>MOM&BABY</h2>
-			</li>
-		</ul>
-		<div class="food-ion">
-			<ul>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_32.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_33.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_34.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_35.jpg" alt=""></li>
-			</ul>
-			<ul>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_36.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_37.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_38.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_39.jpg" alt=""></li>
-			</ul>
-			<ul>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_40.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_41.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_42.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_43.jpg" alt=""></li>
-			</ul>
-			<ul>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_44.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_45.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_46.jpg" alt=""></li>
-				<li><img src="/yiheng/Public/Home/img/合作伙伴logo_47.jpg" alt=""></li>
-			</ul>
+		<div class="hezuo-bg2">
+			<!-- <img src="/yiheng/Public/Home/img/hezuobg2.jpg" alt="" class="img-responsive"> -->
+		</div>
+		<div class="hezuo-text">
+			<h1>COOPERATION</h1>
+			<h3>ECHOMOS</h3>
+			<h2>COOPERATION</h2>
+			<h4>寻求合作</h4>
 		</div>
 	</div>
 
-<!-- 个护、滋补、医药 -->
-<div class="business-gehu">
-	<div class="gehu-bg1">
+	<div class="hezuo-form">
+		<form action="">
+			<input type="text" name="" id="" class="center-block" placeholder="您的联系方式:">
+			<input type="text" name="" id="" class="center-block" placeholder="您的意向:">
+			<textarea name="" id="" cols="30" rows="10" class="center-block" placeholder="您的合作意向:"></textarea>
+			<input type="button" value="登录" class="center-block but">
+		</form>
 	</div>
-	<div class="gehu-bg2">
-	</div>
-	<div class="gehu-content">
-		<ul class="gehu-text">
-			<li class="">
-				<p>个护</p>
-				<h2>PERSONAL CASE</h2>
-			</li>
-			<li class="line"></li>
-			<li class="">
-				<p>滋补</p>
-				<h2>TONIC</h2>
-			</li>
-			<li class="line"></li>
-			<li class="">
-				<p>医药</p>
-				<h2>PHARMCEUTICAL</h2>
-			</li>
-		</ul>
-		<ul class="gehu-ion">
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_52.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_53.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_54.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_55.jpg" alt=""></li>
-		</ul>
-		
-		<ul class="gehu-ion">
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_60.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_61.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_62.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_63.jpg" alt=""></li>
-		</ul>
-		<ul class="gehu-ion">
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_68.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_69.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_70.jpg" alt=""></li>
-			<li><img src="/yiheng/Public/Home/img/合作伙伴logo_71.jpg" alt=""></li>
-		</ul>
+
+<!-- 全球分支 -->
+<div class="hezuo-local">
+	<h1>OUR GLOBAL NETWORK</h1>
+	<p>全球分支</p>
+	<div class="local-img">
+		<!-- <img src="/yiheng/Public/Home/img/hezuo-local.jpg" alt=""> -->
 	</div>
 </div>
 
 <!-- 联系我们 -->
-<div class="business-link">
+<div class="hezuo-link container-fluid">
 	<div class="local-link row">
 		<div class="address col-lg-4 col-lg-offset-1">
 			<span></span>
@@ -286,18 +172,14 @@
 </div>
 
 
-
-
-
-	
 <!--底部链接-->
-	<div class="foot container-fluid">
+<div class="foot container-fluid">
 	<div class="foot-nav row">
 		<div class="col-lg-2 col-md-2 col-sm-2">
 			<h3>了解易恒</h3>
 			<ul>
 				<li><a href="##">企业简介</a><span>></span></li>
-				<li><a href="<?php echo U('Other/history');?>">发展历程</a><span> ></span></li>
+				<li><a href="##">发展历程</a><span> ></span></li>
 				<li><a href="##">企业荣耀</a><span> ></span></li>
 			</ul>
 		</div>
@@ -348,14 +230,11 @@
 	</div>
 </div> 
 
-
 <!-- 引入js -->
 	<script src="/yiheng/Public/Home/js/jquery-1.12.4.min.js"></script>
 	<script src="/yiheng/Public/Home/js/bootstrap.js"></script>
 	<script src="/yiheng/Public/Home/js/head.js"></script>
 	<!--<script src="js/rem.js"></script>-->
 	<!--<script src="js/bootstrap.min.js"></script>-->
-
-
 </body>
 </html>

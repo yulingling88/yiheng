@@ -1,0 +1,176 @@
+
+/*头图*/
+.service-bg {
+	position: relative;
+}
+.service-bg img {
+	width: 100%;
+	height: 400px;
+}
+
+.service-bg .service-text {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	z-index: 100;
+}
+.service-bg .service-text  h1 {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bolder;
+	color: #fff;
+}
+.service-mokuai  {
+	margin: 0!important;
+}
+.service-mokuai .row1 {
+	float: none;
+	margin: 0 auto;
+}
+.service-mokuai .mokuai {
+	text-decoration: none;
+	padding: 5% 2%;
+	color: #fff;
+}
+.service-mokuai .mokuai:hover {
+	color: #fff;
+}
+.service-mokuai .mokuai h2 {
+	margin-top: 0;
+	font-size: 24px;
+}
+.service-mokuai .mokuai span {
+	display: block;
+	width: 15px;
+	height: 4px;
+	
+}
+.service-mokuai .mokuai span.color1  {
+	background: #f9b121;
+}
+
+.service-mokuai .mokuai span.color2  {
+	background: #e40112;
+}
+.service-mokuai .mokuai span.color3  {
+	background: #03b8b1;
+}
+.service-mokuai .mokuai span.color4  {
+	background: #01abe6;
+}
+.service-mokuai .odd {
+	background: #252525;
+}
+.service-mokuai .even {
+	background: #363636;
+}
+@media screen and (max-width: 768px) {
+	.service-bg .service-text {
+		position: absolute;
+		top: 20%;
+		/*width: 100%;
+		z-index: 100;*/
+	}
+	.service-mokuai .odd {
+		margin-bottom: 2px;
+	}
+	.service-mokuai .even {
+		margin-bottom: 2px;
+	}
+}
+/*服务模块*/
+.service-module {
+	position: relative;
+}
+/*
+.service-module img {
+	width: 100%;
+}*/
+/*.module-bg1 img {
+	width: 100%;
+	height: 400px;
+}
+
+.module-bg2 img {
+	width: 100%;
+	height: 384px;
+}
+*/
+.module-bg1 {
+	width: 100%;
+	height: 265px;
+	background: url(../img/service-bg1.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+    	position: relative;
+}
+
+.module-bg2 {
+	width: 100%;
+	height: 265px;
+	background: url(../img/service-bg2.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+    	position: relative;
+}
+
+
+/*专业系统 system*/
+.system {
+	background: #1c1c1c;
+}
+
+.system h1 {
+	color: #fff;
+	line-height: 60px;
+	/*line-height: 10%;*/
+	border-bottom: 1px solid #4c4c4c;
+	position: relative;
+}
+.system h1 span.line{
+	position: absolute;
+	bottom: -1px;
+    	left: 50%;
+    	margin-left: -20px;
+	width: 40px;
+	height: 2px;
+	background: #e3b933;
+
+}
+.system p {
+	color: #9c9c9c;
+	
+}
+
+.system .inner>div {
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+.system .content {
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+}
+.system .content>div {
+	padding-left: 0px!important;
+}
+.system .content img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

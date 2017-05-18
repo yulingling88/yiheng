@@ -1,0 +1,131 @@
+
+
+/*背景图*/
+.hezuo-bg {
+	width: 100%;
+	position: relative;
+	/*height: 800px;*/
+}
+
+.hezuo-bg1 {
+	width: 100%;
+	height: 500px;
+	background: url(../img/hezuobg1.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+    	position: relative;
+   
+}
+.hezuo-bg2 {
+	width: 100%;
+	height: 265px;
+	background: url(../img/hezuobg2.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+    	position: relative;
+}
+.hezuo-bg1 {
+	height: 390px;
+}
+.hezuo-bg1 img {
+	width: 100%;
+	/*height: 300px;*/
+}
+/*.hezuo-bg2 img {
+	width: 100%;
+}*/
+
+.hezuo-bg .hezuo-text {
+	position: absolute;
+	top: 12%;
+	width: 100%;
+	text-align: center;
+}
+.hezuo-text h1 {
+	font-size: 64px;
+	color: #fff;
+	margin-bottom: 15%;
+}
+.hezuo-text h3 {
+	font-size: 30px;
+	color: #fff;
+}
+.hezuo-text h2 {
+	font-size: 36px;
+}
+.hezuo-text h4 {
+	font-size: 22px;
+}
+.hezuo-form {
+	margin-bottom: 8%;
+	position: relative;
+	top: -4%;
+	z-index: 10000;
+}
+
+.hezuo-form input{
+	/*width: 330px;*/
+	width: 40%;
+	margin-bottom: 1%;
+	line-height: 30px;
+	text-indent: 10px;
+}
+.hezuo-form textarea {
+	/*width: 330px;*/
+	width: 40%;
+	margin-bottom: 3%;
+	text-indent: 10px;
+}
+
+.hezuo-form input.but{
+	width: 180px;
+	/*width: 20%;*/
+	margin-bottom: 1%;
+	line-height: 40px;
+	background: #be1e1e;
+	color: #fff;
+	border: none;
+	letter-spacing: 11px;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+/*==========全球分支==============*/
+.hezuo-local {
+	text-align: center;
+}
+.hezuo-local .local-img {
+	width: 100%;
+	height: 475px;
+	background: url(../img/hezuo-local.jpg) no-repeat;
+	background-position: center;
+}
+/*联系地址*/
+.hezuo-link {
+	background: #be1e1e;
+}
+.hezuo-link .local-link  div {
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

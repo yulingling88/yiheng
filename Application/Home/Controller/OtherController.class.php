@@ -7,4 +7,19 @@ class OtherController extends Controller {
         $this->display();
 
     }
+    public function hezuo(){
+
+        $this->display();
+
+    }
+     public function service(){
+
+        $this->display();
+
+    }
+      public function history(){
+
+        $this->display();
+
+    }
 }

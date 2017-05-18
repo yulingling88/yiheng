@@ -2,7 +2,13 @@
 
 /*头部背景图*/
 .business-bg .bg1 {
-	background: url(../img/合作伙伴bg_01.jpg) no-repeat center;
+	width: 100%;
+	height: 423px;
+	background: url(../img/合作伙伴bg_01.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+    position: relative;
 	text-align: center;
 	color: #fff;
 	padding-top: 10%;
@@ -23,7 +29,14 @@
 }
 
 .business-bg .bg2 {
-	background: url(../img/合作伙伴bg_02.jpg) no-repeat center;
+	width: 100%;
+	height: 421px;
+	background: url(../img/合作伙伴bg_02.jpg);
+    background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+    width: 100%;
+    position: relative;
 	padding-bottom: 20px;
 }
 .business-bg .bg1 h3 {
@@ -35,16 +48,21 @@
 	color: #e8414b;
 	font-size: 20px;
 }
-.business-bg .bg2 h3 {
-	/*color: #ea0117;*/
+.business-bg .bg1 .downrow p {
+	color: #666664;
+	font-size: 16px;
+
+}
+.business-bg .bg1 p {
+	color: #666664;
 	font-size: 25px;
 	margin: 0;
 	text-align: center;
 	line-height: 55px;
 
 }
-.business-bg .bg2 h5 {
-	/*color: #e8414b;*/
+.business-bg .bg1 h4 {
+	color: #4b4b4b;
 	font-size: 20px;
 	margin: 0;
 	text-align: center;
@@ -62,6 +80,30 @@
 }
 .business-bg .bg2 ul img  {
 }
+
+/*============媒体查询==============*/
+
+/*@media screen and (min-width:1200px) {
+	.business-bg .bg2 ul li {
+		width: 16%;
+	}
+	.business-bg .bg2 ul li img {
+		width: 100%;
+	}
+}*/
+
+/*@media screen and (min-width:1200px) {
+	.business-bg .bg2 ul li {
+		width: 20%;
+	}
+	.business-bg .bg2 ul li img {
+		width: 100%;
+	}
+}*/
+
+
+
+
 /*.business-bg .bg {
 	height: 1198px;
 }
@@ -88,7 +130,7 @@
 
 /*食品、母婴*/
 .food {
-	padding-top: 5%;
+	padding-top: 4%;
 }
 .food ul {
 	text-align: center;
@@ -96,6 +138,9 @@
 .food ul li {
 	display: inline-block;
 	text-align: center;
+}
+.food ul li p {
+	font-size: 22px;
 }
 .food ul li.line {
 	width: 2px;
@@ -106,10 +151,33 @@
 
 
 /*个护、滋补、医药*/
-.gehu1 {
+.business-gehu {
+	position: relative;
+}
+.gehu-bg1 {
+	height: 415px;
 	background: url(../img/合作伙伴bg_04.jpg) no-repeat  center;
 	/*padding-top: 5%;
 	padding-bottom: 5%;*/
+}
+
+.gehu-bg2 {
+	height: 370px;
+	background: url(../img/合作伙伴bg_05.jpg) no-repeat  center;
+}
+.gehu-content {
+	position: absolute;
+	top: 8%;
+	width: 100%;
+}
+.gehu-content .gehu-text p {
+	font-size: 20px;
+}
+.gehu-content .gehu-text .line {
+	width: 2px;
+	height: 30px;
+	background: #bcbbb7;
+	margin: 0 10px;
 }
 .business-gehu  ul {
 	overflow: hidden;
@@ -123,9 +191,7 @@
 	text-align: center;
 	margin-right: 5px;
 }
-.business-ion {
-	background: url(../img/合作伙伴bg_05.jpg) no-repeat  center;
-}
+
 
 
 /*联系地址*/
