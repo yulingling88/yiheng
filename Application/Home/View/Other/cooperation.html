@@ -1,3 +1,4 @@
+<!-- 首页-联系我们-寻求合作 -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +8,7 @@
     <meta name="description" content="">  
     <meta name="author" content="">  
     <title>易恒</title>
-    <link rel="stylesheet" href="__CSS__/hezuo.css">
+    <link rel="stylesheet" href="__CSS__/cooperation.css">
     <link rel="stylesheet" href="__CSS__/reset.css">
     <link rel="stylesheet" href="__CSS__/style.css">
     <link rel="stylesheet" href="__CSS__/yewu.css">
@@ -26,10 +27,6 @@
 <!-- 背景图 -->
 	<div class="hezuo-bg">
 		<div class="hezuo-bg1">
-			<!-- <img src="__IMG__/hezuobg1.jpg" alt="" class="img-responsive"> -->
-		</div>
-		<div class="hezuo-bg2">
-			<!-- <img src="__IMG__/hezuobg2.jpg" alt="" class="img-responsive"> -->
 		</div>
 		<div class="hezuo-text">
 			<h1>COOPERATION</h1>
@@ -39,13 +36,18 @@
 		</div>
 	</div>
 
-	<div class="hezuo-form">
-		<form action="">
-			<input type="text" name="" id="" class="center-block" placeholder="您的联系方式:">
-			<input type="text" name="" id="" class="center-block" placeholder="您的意向:">
-			<textarea name="" id="" cols="30" rows="10" class="center-block" placeholder="您的合作意向:"></textarea>
-			<input type="button" value="登录" class="center-block but">
-		</form>
+	<div class="hezuo-form container-fluid">
+		<div class="row">
+			<div class="col-lg-7 col-md-9  col-sm-7 inner">
+				<form action="" class="row">
+					<input type="text" name="" id="" class="center-block col-lg-7 col-md-8  col-sm-8  col-xs-8" placeholder="您的联系方式:">
+					<input type="text" name="" id="" class="center-block col-lg-7 col-md-8  col-sm-8  col-xs-8" placeholder="您的邮箱:">
+					<textarea name="" id="" cols="30" rows="10" class="center-block col-lg-7 col-md-8 col-sm-8  col-xs-8" placeholder="您的合作意向:"></textarea>
+					<input type="button" value="登录" class="center-block but col-lg-3 col-md-4  col-sm-5 col-xs-5">
+				</form>
+			</div>
+		</div>
+		
 	</div>
 
 <!-- 全球分支 -->
@@ -53,7 +55,7 @@
 	<h1>OUR GLOBAL NETWORK</h1>
 	<p>全球分支</p>
 	<div class="local-img">
-		<!-- <img src="__IMG__/hezuo-local.jpg" alt=""> -->
+		<img src="__IMG__/map.jpg" alt="">
 	</div>
 </div>
 
@@ -89,9 +91,15 @@
 <include file="Public/foot" /> 
 
 <!-- 引入js -->
-	<script src="__JS__/jquery-1.12.4.min.js"></script>
-	<script src="__JS__/bootstrap.js"></script>
-	<script src="__JS__/head.js"></script>
+<script src="__JS__/jquery-1.12.4.min.js"></script>
+<script src="__JS__/bootstrap.js"></script>
+<script src="__JS__/head.js"></script>
+<script src="__JS__/jquery.placeholder.min.js"></script>
+<script>
+	$(function() {
+	        $("input textarea").placeholder();
+	 });
+</script>
 	<!--<script src="js/rem.js"></script>-->
 	<!--<script src="js/bootstrap.min.js"></script>-->
 </body>

@@ -1,4 +1,4 @@
-
+/*首页--联系我们--寻求合作*/
 
 /*背景图*/
 .hezuo-bg {
@@ -10,14 +10,14 @@
 .hezuo-bg1 {
 	width: 100%;
 	height: 500px;
-	background: url(../img/hezuobg1.jpg);
+	background: url(../img/cooperation-bg.jpg);
 	background-repeat: no-repeat;
   	background-size: cover;
   	background-position: center;
     	position: relative;
    
 }
-.hezuo-bg2 {
+/*.hezuo-bg2 {
 	width: 100%;
 	height: 265px;
 	background: url(../img/hezuobg2.jpg);
@@ -25,9 +25,9 @@
   	background-size: cover;
   	background-position: center;
     	position: relative;
-}
+}*/
 .hezuo-bg1 {
-	height: 390px;
+	height: 590px;
 }
 .hezuo-bg1 img {
 	width: 100%;
@@ -58,29 +58,63 @@
 .hezuo-text h4 {
 	font-size: 22px;
 }
+@media screen and (max-width: 992px) {
+	.hezuo-text h1 {
+		font-size: 44px;
+		/*color: #fff;
+		margin-bottom: 15%;*/
+	}
+
+	.hezuo-text h3 {
+		font-size: 25px;
+		/*color: #fff;*/
+	}
+	.hezuo-text h2 {
+		font-size: 26px;
+	}
+	.hezuo-text h4 {
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.hezuo-text h1 {
+		font-size: 34px;
+		/*color: #fff;*/
+		/*margin-bottom: 15%;*/
+	}
+}
+/*表单*/
 .hezuo-form {
 	margin-bottom: 8%;
 	position: relative;
 	top: -4%;
-	z-index: 10000;
+	z-index: 10;
 }
-
+.hezuo-form .inner {
+	float: none;
+	margin: 0 auto;
+}
 .hezuo-form input{
 	/*width: 330px;*/
-	width: 40%;
+	/*width: 40%;*/
+	float: none;
+    	margin: 0 auto;
 	margin-bottom: 1%;
 	line-height: 30px;
 	text-indent: 10px;
 }
 .hezuo-form textarea {
 	/*width: 330px;*/
-	width: 40%;
+	/*width: 40%;*/
+	float: none;
+    	margin: 0 auto;
 	margin-bottom: 3%;
 	text-indent: 10px;
 }
 
 .hezuo-form input.but{
-	width: 180px;
+	display: block;
+	/*width: 180px;*/
 	/*width: 20%;*/
 	margin-bottom: 1%;
 	line-height: 40px;
@@ -102,11 +136,14 @@
 .hezuo-local {
 	text-align: center;
 }
-.hezuo-local .local-img {
+.hezuo-local p {
+	font-size: 20px;
+}
+.hezuo-local .local-img img {
 	width: 100%;
-	height: 475px;
+	/*height: 475px;
 	background: url(../img/hezuo-local.jpg) no-repeat;
-	background-position: center;
+	background-position: center;*/
 }
 /*联系地址*/
 .hezuo-link {

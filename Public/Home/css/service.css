@@ -1,4 +1,4 @@
-
+/*service.html 页面样式表*/
 /*头图*/
 .service-bg {
 	position: relative;
@@ -80,41 +80,90 @@
 }
 /*服务模块*/
 .service-module {
-	position: relative;
-}
-/*
-.service-module img {
 	width: 100%;
-}*/
-/*.module-bg1 img {
-	width: 100%;
-	height: 400px;
-}
-
-.module-bg2 img {
-	width: 100%;
-	height: 384px;
-}
-*/
-.module-bg1 {
-	width: 100%;
-	height: 265px;
-	background: url(../img/service-bg1.jpg);
+	height: 690px;
+	background: url(../img/servicebg.jpg);
 	background-repeat: no-repeat;
   	background-size: cover;
   	background-position: center;
     	position: relative;
 }
-
-.module-bg2 {
-	width: 100%;
-	height: 265px;
-	background: url(../img/service-bg2.jpg);
-	background-repeat: no-repeat;
-  	background-size: cover;
-  	background-position: center;
-    	position: relative;
+.service-module .content {
+	float: none;
+	margin: 0 auto;
+	padding: 0;
+	background: rgba(0,0,0,.5);
+	margin-top: 10%;
 }
+.service-module .content .row div.left {
+	text-align: right;
+	margin-top: 4%;
+	padding-right: 30px;
+}
+.service-module .content .row div.left h1 {
+	color: #e0b92e;
+}
+.service-module .content .row div.left span {
+	background: #e0b92e;
+	display: block;
+	width: 30px;
+	height: 2px;
+	float: right;
+}
+.service-module .content .row div.left div {
+	background: -webkit-linear-gradient(left,transparent,#000); 
+	background: -o-linear-gradient(right,transparent,#000); 
+	background: -moz-linear-gradient(right,transparent,#000); 
+	background: linear-gradient(to right,transparent,#000);
+    /*opacity: 0.5;*/
+}
+.service-module .content .row div.left h3 {
+	color: #fff;
+	padding-top: 15px;
+}
+.service-module .content .row div.left div p {
+	color: #9c9c9c;
+	line-height: 32px;
+}
+.service-module .content .row div.right {
+	border-left: 1px solid #5f5122;
+	/*padding-left: 0;*/
+}
+.service-module .content .row div.right li {
+	overflow: hidden;
+}
+.service-module .content .row div.right li i {
+	display: inline-block;
+  	width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    border: 1px solid #938230;
+    text-align: center;
+    border-radius: 50%;
+    color: #c5a431;
+    vertical-align: top;
+}
+.service-module .content .row div.right li div {
+	/*display: inline-block;*/
+	float: left;
+    color: #9c9c9c;
+    margin-left: 10px;
+}
+.service-module .content .row div.right li div h3 {
+	margin-top: 0;
+}
+.service-module .content .row div.right li div.text {
+	width: 77%;
+}
+
+@media screen and (max-width: 450px){
+	.service-module .content {
+		margin-top: 0;
+	}
+}
+
+
 
 
 /*专业系统 system*/

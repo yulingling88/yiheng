@@ -1,4 +1,5 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!-- 首页-历史 -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -23,11 +24,12 @@
 </head>
 <body>
 <!--头部导航 -->
+
 <div class="head container-fluid">
 		<!-- 导航条 -->
 		<!--<div class="row">-->
 			<div class="head-nav row">
-				<div class="head-logo col-lg-2 col-md-2 col-sm-2 col-xm-2col-lg-offset-1 col-md-offset-1">
+				<div class="head-logo col-lg-2 col-md-2 col-sm-2 col-xs-2 col-lg-offset-1 col-md-offset-1 col-xs-offset-1">
 					<img src="/yiheng/Public/Home/img/header_logo.png" alt="">
 				</div>
 				<ul class="nav col-lg-7 col-md-8 col-sm-9 pull-right ">
@@ -36,7 +38,7 @@
 						<span class="one"></span>
 						<ul class="er-nav">
 							<li><a href="##">易恒</a></li>
-							<li><a href="##">历史</a></li>
+							<li><a href="<?php echo U('Other/history');?>">历史</a></li>
 							<li><a href="##">荣耀</a></li>
 						</ul>
 					</li>
@@ -72,7 +74,7 @@
 						<a href="##">联系我们</a>
 						<span class="five"></span>
 						<ul class="er-nav">
-							<li><a href="<?php echo U('Other/hezuo');?>">寻求合作</a></li>
+							<li><a href="<?php echo U('Other/cooperation');?>">寻求合作</a></li>
 							<li><a href="##">联系方式</a></li>
 						</ul>
 					</li>
@@ -91,9 +93,16 @@
 					</li>	
 				</ul>
 				<!-- 导航栏nav2 -->
-				<div class="nav2 col-sm-4 col-xm-4 puli-right">
-					<span class="nav2-ion">o</span>
-					<div class="dropdown">
+				<div class="nav2 col-sm-2 col-xs-2 pull-right">
+					<span class="nav2-ion glyphicon glyphicon-th-list"></span>
+					<ul>
+						<li><a href="##">关于易恒</a></li>
+						<li><a href="##">产品服务</a></li>
+						<li><a href="##">新闻资讯</a></li>
+						<li><a href="##">招纳贤士</a></li>
+						<li><a href="##">联系我们</a></li>
+					</ul>
+					<!-- <div class="dropdown">
 					      	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 					        		<span class="guoqi"></span>
 					        		<span class="caret"></span>
@@ -105,7 +114,7 @@
 					<div class="phone">
 						<span class="phone-ion"></span>
 						021-61132270
-					</div>	
+					</div>	 -->
 				</div>
 				<!--<div class="col-lg-1"></div>-->
 			</div>
@@ -120,65 +129,225 @@
 
 <!-- 主体部分 -->
 <div class="history-main container-fluid">
-<!-- 标题 -->
+	<!-- 标题 -->
 	<div class="row ">
-		<div class="col-lg-6 nav1">
-			<!-- <img src="/yiheng/Public/Home/img/hr.jpg" alt=""> -->
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 nav1">
 			<a href="##">
 				<h3>ABOUT ECMOHO</h3>
 				<p>关于易恒</p>
 			</a>
-
 		</div>
-		<div class="col-lg-6 nav2">
-			<!-- <img src="/yiheng/Public/Home/img/hrhover.jpg" alt=""> -->
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 nav2">
 			<a href="##">
 				<h3>OUR HISTORY</h3>
 				<p>易恒历史</p>
-			</a>
-			
+			</a>	
 		</div>
 	</div>
-<!-- 内容 -->
+	<!-- 发展历程内容 -->
 	<div class="row main-content">
 		<img src="/yiheng/Public/Home/img/his_logo.png" alt="">
 		<p>ECMOHO'S</p>
 		<h1>HISTORY</h1>
-		<div class="col-lg-10 center">
-			<div class="row item">
-				<div class="odd col-lg-6">
-					<div class="line"><img src="/yiheng/Public/Home/img/hlines.png" alt=""></div>
+		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 center">
+			<div class="row odd">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
 					<div class="num">
 						<h2>2002<span></span></h2>
 						<h4>SET UP</h4>
 						<p>易恒健康公司成立，专注健康品线上零售领域</p>
 					</div>
 				</div>
-				<div class="even col-lg-6">
-					<div class="line"><img src="/yiheng/Public/Home/img/hlines.png" alt=""></div>
-					<!-- <div class="num">
-						<h2>2002<span></span></h2>
-						<h4>SET UP</h4>
-						<p>易恒健康公司成立，专注健康品线上零售领域</p>
-					</div> -->
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+							<div class="line"><img src="/yiheng/Public/Home/img/hlines.png" alt=""></div>
+						</div>
+					</div>
+					
 				</div>
 			</div>
-			<!-- <div class="row item">
-				<div class="even col-lg-6 pull-right">
-					<div class="line"><img src="/yiheng/Public/Home/img/hlines.png" alt=""></div>
+			<div class="row even">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+							<div class="line"><img src="/yiheng/Public/Home/img/hlines.png" alt=""></div>
+						</div>
+						<div class="num col-lg-9 col-md-9 col-sm-9 col-xs-9">
+							<h2>2012<span></span></h2>
+							<h4>SET UP</h4>
+							<p>易恒健康公司成立，专注健康品线上零售领域</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row odd">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
 					<div class="num">
-						<h2>2002<span></span></h2>
+						<h2>2013-2015<span></span></h2>
 						<h4>SET UP</h4>
 						<p>易恒健康公司成立，专注健康品线上零售领域</p>
 					</div>
 				</div>
-			</div> -->
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+							<div class="line"><img src="/yiheng/Public/Home/img/hlines.png" alt=""></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row even">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+							<div class="line"><img src="/yiheng/Public/Home/img/hlines.png" alt=""></div>
+						</div>
+						<div class="num col-lg-9 col-md-9 col-sm-9 col-xs-9">
+							<h2>2013-2015<span></span></h2>
+							<h4>SET UP</h4>
+							<p>易恒健康公司成立，专注健康品线上零售领域</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row odd">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+					<div class="num">
+						<h2>2015<span></span></h2>
+						<h4>SET UP</h4>
+						<p>易恒健康公司成立，专注健康品线上零售领域</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+							<div class="line"><img src="/yiheng/Public/Home/img/hlines.png" alt=""></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row even">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+							<div class="line"><img src="/yiheng/Public/Home/img/hlines.png" alt=""></div>
+						</div>
+						<div class="num col-lg-9 col-md-9 col-sm-9 col-xs-9">
+							<h2>2015.1<span></span></h2>
+							<h4>SET UP</h4>
+							<p>易恒健康公司成立，专注健康品线上零售领域</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row odd">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+					<div class="num">
+						<h2>2015.9<span></span></h2>
+						<h4>SET UP</h4>
+						<p>易恒健康公司成立，专注健康品线上零售领域</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+							<div class="line"><img src="/yiheng/Public/Home/img/hlines.png" alt=""></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row even">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+							<div class="line"><img src="/yiheng/Public/Home/img/hlines.png" alt=""></div>
+						</div>
+						<div class="num col-lg-9 col-md-9 col-sm-9 col-xs-9">
+							<h2>2015.12<span></span></h2>
+							<h4>SET UP</h4>
+							<p>易恒健康公司成立，专注健康品线上零售领域</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row odd">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+					<div class="num">
+						<h2>2016.6<span></span></h2>
+						<h4>SET UP</h4>
+						<p>易恒健康公司成立，专注健康品线上零售领域</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+							<div class="line"><img src="/yiheng/Public/Home/img/hlines.png" alt=""></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row even">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+							<div class="line"><img src="/yiheng/Public/Home/img/hlines.png" alt=""></div>
+						</div>
+						<div class="num col-lg-9 col-md-9 col-sm-9 col-xs-9">
+							<h2>2015.9-2016.6<span></span></h2>
+							<h4>SET UP</h4>
+							<p>易恒健康公司成立，专注健康品线上零售领域</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>	
+		</div>
+		<div class="down-bg">
+				<img src="/yiheng/Public/Home/img/his_dibu.jpg" alt="">
 		</div>
 	</div>
 </div>
 
-
-
+<!-- 奖杯荣誉 glories-->
+<div class="glories container-fluid">
+	<div class="row">
+		<p>ECMOHO'S</p>
+		<h1>GLORIES</h1> 
+		<div class="col-lg-10 inner">
+			<div class="row">
+				<!-- <div class="col-lg-12"> -->
+					<ul class="col-lg-12">
+						<li><img src="/yiheng/Public/Home/img/h03.jpg" alt=""></li>
+						<li><img src="/yiheng/Public/Home/img/h03.jpg" alt=""></li>
+						<li><img src="/yiheng/Public/Home/img/h03.jpg" alt=""></li>
+						<li><img src="/yiheng/Public/Home/img/h03.jpg" alt=""></li>
+						<li><img src="/yiheng/Public/Home/img/h03.jpg" alt=""></li>
+						<li><img src="/yiheng/Public/Home/img/h03.jpg" alt=""></li>
+					</ul>
+				<!-- </div> -->
+			</div>
+		</div>
+	</div>
+</div>
 
 
 <!-- 联系我们 -->
@@ -211,56 +380,61 @@
 
 <!--底部链接-->
 <div class="foot container-fluid">
-	<div class="foot-nav row">
-		<div class="col-lg-2 col-md-2 col-sm-2">
-			<h3>了解易恒</h3>
-			<ul>
-				<li><a href="##">企业简介</a><span>></span></li>
-				<li><a href="<?php echo U('Other/history');?>">发展历程</a><span> ></span></li>
-				<li><a href="##">企业荣耀</a><span> ></span></li>
-			</ul>
+	<div class="row">
+		<div class="col-lg-10 inner">
+			<div class="foot-nav row">
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+					<h3>了解易恒</h3>
+					<ul>
+						<li><a href="##">企业简介</a><span>></span></li>
+						<li><a href="<?php echo U('Other/history');?>">发展历程</a><span> ></span></li>
+						<li><a href="##">企业荣耀</a><span> ></span></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+					<h3>新闻资讯</h3>
+					<ul>
+						<li><a href="##">易恒动态</a><span> ></span></li>
+						<li><a href="##">行业新闻</a><span> ></span></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+					<h3>企业服务</h3>
+					<ul>
+						<li><a href="##">服务内容</a><span> ></span></li>
+						<li><a href="##">合作伙伴</a><span> ></span></li>
+						<li><a href="##">我们的优势</a><span> ></span></li>
+						<li><a href="##">服务案例</a><span> ></span></li>
+					</ul>
+				</div>	
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+					<h3>成功案例</h3>
+					<ul>
+						<li><a href="##">膳食营养</a><span> ></span></li>
+						<li><a href="##">保健健康</a><span> ></span></li>
+						<li><a href="##">传统滋补</a><span> ></span></li>
+						<li><a href="##">更过...</a><span> </span></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+					<h3>招贤纳士</h3>
+					<ul>
+						<li><a href="##">热招职位</a><span> ></span></li>
+						<li><a href="##">选择易恒</a><span> ></span></li>
+						<li><a href="##">易恒小伙伴</a><span> ></span></li>
+					</ul>
+				</div>	
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+					<h3>联系方式</h3>
+					<ul>
+						<li><a href="##">寻求合作</a><span> ></span></li>
+						<li><a href="##">联系方式</a><span> ></span></li>
+					</ul>
+				</div>	
+			</div>
 		</div>
-		<div class="col-lg-2 col-md-2 col-sm-2">
-			<h3>新闻资讯</h3>
-			<ul>
-				<li><a href="##">易恒动态</a><span> ></span></li>
-				<li><a href="##">行业新闻</a><span> ></span></li>
-			</ul>
-		</div>
-		<div class="col-lg-2 col-md-2 col-sm-2">
-			<h3>企业服务</h3>
-			<ul>
-				<li><a href="##">服务内容</a><span> ></span></li>
-				<li><a href="##">合作伙伴</a><span> ></span></li>
-				<li><a href="##">我们的优势</a><span> ></span></li>
-				<li><a href="##">服务案例</a><span> ></span></li>
-			</ul>
-		</div>	
-		<div class="col-lg-2 col-md-2 col-sm-2">
-			<h3>成功案例</h3>
-			<ul>
-				<li><a href="##">膳食营养</a><span> ></span></li>
-				<li><a href="##">保健健康</a><span> ></span></li>
-				<li><a href="##">传统滋补</a><span> ></span></li>
-				<li><a href="##">更过...</a><span> </span></li>
-			</ul>
-		</div>
-		<div class="col-lg-2 col-md-2 col-sm-2">
-			<h3>招贤纳士</h3>
-			<ul>
-				<li><a href="##">热招职位</a><span> ></span></li>
-				<li><a href="##">选择易恒</a><span> ></span></li>
-				<li><a href="##">易恒小伙伴</a><span> ></span></li>
-			</ul>
-		</div>	
-		<div class="col-lg-2 col-md-2 col-sm-2">
-			<h3>联系方式</h3>
-			<ul>
-				<li><a href="##">寻求合作</a><span> ></span></li>
-				<li><a href="##">联系方式</a><span> ></span></li>
-			</ul>
-		</div>	
 	</div>
+	
 	<div class="foot-us">
 		<p>联系我们 <i></i> 员工通道</p>
 		<p>沪|CP备14010467号-5 Copyright &copy; 2014-2015 ECMOHO.一加三餐-易恒官网 版权所有</p>

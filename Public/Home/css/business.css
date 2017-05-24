@@ -1,17 +1,23 @@
 
 
 /*头部背景图*/
+.business-bg {
+	padding: 0!important;
+	margin: 0;
+}
 .business-bg .bg1 {
 	width: 100%;
-	height: 423px;
-	background: url(../img/合作伙伴bg_01.jpg);
+	/*height: 845px;;*/
+	height: 25%;
+	background: url(../img/cooperationbgup.jpg);
 	background-repeat: no-repeat;
   	background-size: cover;
   	background-position: center;
-    position: relative;
+    	position: relative;
 	text-align: center;
 	color: #fff;
 	padding-top: 10%;
+	margin: 0;
 }
 .business-bg .bg1 p {
 	margin: 0;
@@ -23,22 +29,6 @@
 	font-size: 50px;
 }
 
-.business-bg .bg2 p {
-	margin: 0;
-	font-size: 16px;
-}
-
-.business-bg .bg2 {
-	width: 100%;
-	height: 421px;
-	background: url(../img/合作伙伴bg_02.jpg);
-    background-repeat: no-repeat;
-  	background-size: cover;
-  	background-position: center;
-    width: 100%;
-    position: relative;
-	padding-bottom: 20px;
-}
 .business-bg .bg1 h3 {
 	color: #ea0117;
 	font-size: 25px;
@@ -70,27 +60,46 @@
 
 
 }
-.business-bg .bg2 ul {
-	overflow: hidden;
-	text-align: center;
+.business-bg .bg1 .inner {
+	float: none;
+	padding: 0;
+	margin: 0 auto;
 }
-.business-bg .bg2 ul  li {
-	display: inline-block;
-	margin-right: 5px;
+.business-bg .bg1 .inner ul {
+	margin: 0;
 }
-.business-bg .bg2 ul img  {
+.business-bg .bg1 .inner li {
+	margin-bottom: 5px;
+    	padding: 0 2px;
+}
+.business-bg .bg1 .inner li img {
+	width: 100%;
 }
 
 /*============媒体查询==============*/
 
-/*@media screen and (min-width:1200px) {
-	.business-bg .bg2 ul li {
-		width: 16%;
+@media screen and (max-width:992px) {
+	.business-bg .bg1 h1 {
+		font-size: 40px;
 	}
-	.business-bg .bg2 ul li img {
-		width: 100%;
+	.business-bg .bg1 h3 {
+		font-size: 25px;
 	}
-}*/
+	.business-bg .bg1 h5 {
+		font-size: 20px;
+	}
+	.business-bg .bg1 .downrow p {
+		font-size: 16px;
+	}
+	.business-bg .bg1 p {
+		font-size: 25px;
+		line-height: 55px;
+	}
+	.business-bg .bg1 h4 {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+}
 
 /*@media screen and (min-width:1200px) {
 	.business-bg .bg2 ul li {
@@ -132,43 +141,65 @@
 .food {
 	padding-top: 4%;
 }
-.food ul {
+
+.food ul.food-title {
 	text-align: center;
 }
-.food ul li {
+.food ul.food-title li {
 	display: inline-block;
 	text-align: center;
 }
-.food ul li p {
+.food ul.food-title li p {
 	font-size: 22px;
 }
-.food ul li.line {
+.food ul.food-title li.line {
 	width: 2px;
     	height: 21px;
     	background: #000;
     	margin: 0 10px;
 }
-
+.food .inner {
+	float: none;
+	padding: 0;
+	margin: 0 auto;
+}
+.food .inner li {
+	padding: 0;
+}
+.food .inner li img {
+	width: 100%;
+}
 
 /*个护、滋补、医药*/
 .business-gehu {
 	position: relative;
 }
 .gehu-bg1 {
-	height: 415px;
-	background: url(../img/合作伙伴bg_04.jpg) no-repeat  center;
+	height: 792px;
+	background: url(../img/cooperationbgdown.jpg) no-repeat  center;
 	/*padding-top: 5%;
 	padding-bottom: 5%;*/
 }
 
-.gehu-bg2 {
+/*.gehu-bg2 {
 	height: 370px;
-	background: url(../img/合作伙伴bg_05.jpg) no-repeat  center;
-}
+	background: url(../img/hezuobg_05.jpg) no-repeat  center;
+}*/
 .gehu-content {
 	position: absolute;
 	top: 8%;
 	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.gehu-content .inner {
+	float: none;
+	margin: 0 auto;
+	padding: 0;
+}
+.gehu-content .row {
+	padding: 0;
+	margin: 0;
 }
 .gehu-content .gehu-text p {
 	font-size: 20px;
@@ -179,17 +210,44 @@
 	background: #bcbbb7;
 	margin: 0 10px;
 }
-.business-gehu  ul {
+.business-gehu  ul.gehu-text {
 	overflow: hidden;
 	text-align: center;
 	/*padding-top: 5%;*/
 	/*padding-bottom: 5%;*/
 }
-.business-gehu  ul li {
+.business-gehu  ul.gehu-text li {
 	/*float : left;*/
 	display: inline-block;
 	text-align: center;
 	margin-right: 5px;
+}
+
+.business-gehu .gehu-content .gehu-ion li {
+	margin-bottom: 5px;
+	padding: 0 2px;
+
+}
+.gehu-ion li img {
+	width: 100%;
+	
+}
+
+@media screen and (max-width: 992px) {
+	.gehu-content .gehu-text h2 {
+		font-size: 28px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.gehu-content .gehu-text h2 {
+		font-size: 24px;
+	}
+	.gehu-content .gehu-text p {
+		font-size:16px;
+	}
+	.gehu-content .gehu-text .line {
+		margin: 0 5px;
+	}
 }
 
 

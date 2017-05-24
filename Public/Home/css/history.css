@@ -44,7 +44,7 @@
 	margin: 0;
 }
 .history-main .row>div {
-	height: 80px;
+	/*height: 80px;*/
 	text-align: center;
 	color: #fff;
 }
@@ -52,6 +52,9 @@
 	padding-top: 15px;
 	margin: 0;
 	margin-bottom: 4px;
+}
+.history-main .row>div p {
+	margin: 0;
 }
 .history-main .nav1 {
 	background: url(../img/hr.jpg);
@@ -68,7 +71,7 @@
 	color: #fff;
 }
 
-/*主体部分--内容*/
+/*主体部分--发展历程*/
 .history-main .main-content {
 	background: #19191b;
 	text-align: center;
@@ -89,32 +92,96 @@
 .main-content .center {
 	float: none;
 	margin: 0 auto;
+	position: relative;
 }
 .main-content .center .odd {
 	height: auto;
 }
-
-.main-content .center .odd div {
-	float: 	right;	
+.main-content .center .odd>div,.main-content .center .even>div {
+	padding: 0;
 }
-
+/*.main-content .center .odd .num {
+	float: 	right;	
+}*/
+.main-content .center .odd .num {
+	text-align: right;
+}
+.main-content .center .even .num {
+	text-align: left;
+}
+.main-content .center .odd .col-lg-3,.main-content .center .even .col-lg-3 {
+	padding-right: 0;
+}
 .main-content .center .odd h2 {
 	text-align: right;
+
+}
+.main-content .center .odd h2,.main-content .center .even h2 {
 	color: #deb72b;
 	line-height: 45px;
-	position: relative;	
+	position: relative;
+	margin-top: 0;	
 }
 .main-content .center .odd h4 {
 	text-align: right;
 }
-.main-content .center .odd h2 span {
+.main-content .center .odd h2 span,.main-content .center .even h2 span {
 	width: 30px;
 	height: 4px;
 	background: #deb72b;
 	position: absolute;	
 	bottom: 0;
+	
+}
+.main-content .center .odd h2 span {
 	right: 0;
 }
+.main-content .center .even h2 span {
+	left: 0
+}
+
+.main-content .center  .down-bg {
+	/*position: absolute;
+	bottom: 0;*/
+}
+.main-content .down-bg img {
+	width: 100%;
+}
+
+
+/*====奖杯荣誉==*/
+
+.glories {
+
+}
+.glories .row {
+	text-align: center;
+	padding-top: 5%;
+}
+
+.glories .row .inner {
+	float: none;
+	margin: 0 auto;
+}
+.glories .row .inner ul {
+	overflow: hidden;
+	/*width: 10000px;*/
+}
+.glories .row .inner li {
+	float: left;
+}
+.glories .row .inner li img {
+	/*width: 100%;*/
+}
+
+
+
+
+
+
+
+
+
 
 
 

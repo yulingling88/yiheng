@@ -26,7 +26,7 @@
 		<!-- 导航条 -->
 		<!--<div class="row">-->
 			<div class="head-nav row">
-				<div class="head-logo col-lg-2 col-md-2 col-sm-2 col-xm-2col-lg-offset-1 col-md-offset-1">
+				<div class="head-logo col-lg-2 col-md-2 col-sm-2 col-xs-2 col-lg-offset-1 col-md-offset-1 col-xs-offset-1">
 					<img src="/yiheng/Public/Home/img/yhLogo.png" alt="">
 				</div>
 				<ul class="nav col-lg-7 col-md-8 col-sm-9 pull-right ">
@@ -35,7 +35,7 @@
 						<span class="one"></span>
 						<ul class="er-nav">
 							<li><a href="##">易恒</a></li>
-							<li><a href="##">历史</a></li>
+							<li><a href="<?php echo U('Other/history');?>">历史</a></li>
 							<li><a href="##">荣耀</a></li>
 						</ul>
 					</li>
@@ -90,9 +90,9 @@
 					</li>	
 				</ul>
 				<!-- 导航栏nav2 -->
-				<div class="nav2 col-sm-4 col-xm-4 puli-right">
-					<span class="nav2-ion">o</span>
-					<div class="dropdown">
+				<div class="nav2 col-sm-2 col-xs-2 pull-right">
+					<span class="nav2-ion glyphicon glyphicon-th-list"></span>
+					<!-- <div class="dropdown">
 					      	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 					        		<span class="guoqi"></span>
 					        		<span class="caret"></span>
@@ -104,7 +104,7 @@
 					<div class="phone">
 						<span class="phone-ion"></span>
 						021-61132270
-					</div>	
+					</div>	 -->
 				</div>
 				<!--<div class="col-lg-1"></div>-->
 			</div>
@@ -174,56 +174,61 @@
 
 <!--底部链接-->
 <div class="foot container-fluid">
-	<div class="foot-nav row">
-		<div class="col-lg-2 col-md-2 col-sm-2">
-			<h3>了解易恒</h3>
-			<ul>
-				<li><a href="##">企业简介</a><span>></span></li>
-				<li><a href="##">发展历程</a><span> ></span></li>
-				<li><a href="##">企业荣耀</a><span> ></span></li>
-			</ul>
+	<div class="row">
+		<div class="col-lg-10 inner">
+			<div class="foot-nav row">
+				<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
+					<h3>了解易恒</h3>
+					<ul>
+						<li><a href="##">企业简介</a><span>></span></li>
+						<li><a href="<?php echo U('Other/history');?>">发展历程</a><span> ></span></li>
+						<li><a href="##">企业荣耀</a><span> ></span></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
+					<h3>新闻资讯</h3>
+					<ul>
+						<li><a href="##">易恒动态</a><span> ></span></li>
+						<li><a href="##">行业新闻</a><span> ></span></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
+					<h3>企业服务</h3>
+					<ul>
+						<li><a href="##">服务内容</a><span> ></span></li>
+						<li><a href="##">合作伙伴</a><span> ></span></li>
+						<li><a href="##">我们的优势</a><span> ></span></li>
+						<li><a href="##">服务案例</a><span> ></span></li>
+					</ul>
+				</div>	
+				<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
+					<h3>成功案例</h3>
+					<ul>
+						<li><a href="##">膳食营养</a><span> ></span></li>
+						<li><a href="##">保健健康</a><span> ></span></li>
+						<li><a href="##">传统滋补</a><span> ></span></li>
+						<li><a href="##">更过...</a><span> </span></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
+					<h3>招贤纳士</h3>
+					<ul>
+						<li><a href="##">热招职位</a><span> ></span></li>
+						<li><a href="##">选择易恒</a><span> ></span></li>
+						<li><a href="##">易恒小伙伴</a><span> ></span></li>
+					</ul>
+				</div>	
+				<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
+					<h3>联系方式</h3>
+					<ul>
+						<li><a href="##">寻求合作</a><span> ></span></li>
+						<li><a href="##">联系方式</a><span> ></span></li>
+					</ul>
+				</div>	
+			</div>
 		</div>
-		<div class="col-lg-2 col-md-2 col-sm-2">
-			<h3>新闻资讯</h3>
-			<ul>
-				<li><a href="##">易恒动态</a><span> ></span></li>
-				<li><a href="##">行业新闻</a><span> ></span></li>
-			</ul>
-		</div>
-		<div class="col-lg-2 col-md-2 col-sm-2">
-			<h3>企业服务</h3>
-			<ul>
-				<li><a href="##">服务内容</a><span> ></span></li>
-				<li><a href="##">合作伙伴</a><span> ></span></li>
-				<li><a href="##">我们的优势</a><span> ></span></li>
-				<li><a href="##">服务案例</a><span> ></span></li>
-			</ul>
-		</div>	
-		<div class="col-lg-2 col-md-2 col-sm-2">
-			<h3>成功案例</h3>
-			<ul>
-				<li><a href="##">膳食营养</a><span> ></span></li>
-				<li><a href="##">保健健康</a><span> ></span></li>
-				<li><a href="##">传统滋补</a><span> ></span></li>
-				<li><a href="##">更过...</a><span> </span></li>
-			</ul>
-		</div>
-		<div class="col-lg-2 col-md-2 col-sm-2">
-			<h3>招贤纳士</h3>
-			<ul>
-				<li><a href="##">热招职位</a><span> ></span></li>
-				<li><a href="##">选择易恒</a><span> ></span></li>
-				<li><a href="##">易恒小伙伴</a><span> ></span></li>
-			</ul>
-		</div>	
-		<div class="col-lg-2 col-md-2 col-sm-2">
-			<h3>联系方式</h3>
-			<ul>
-				<li><a href="##">寻求合作</a><span> ></span></li>
-				<li><a href="##">联系方式</a><span> ></span></li>
-			</ul>
-		</div>	
 	</div>
+	
 	<div class="foot-us">
 		<p>联系我们 <i></i> 员工通道</p>
 		<p>沪|CP备14010467号-5 Copyright &copy; 2014-2015 ECMOHO.一加三餐-易恒官网 版权所有</p>

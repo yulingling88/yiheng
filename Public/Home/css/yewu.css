@@ -3,8 +3,11 @@
 /*=================易恒业务==========================*/
 
 .yewu {
-	background: url(../img/易恒业务bg.jpg) center;
-	/*padding-top: 3px;*/
+	background: url(../img/易恒业务bg.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+    position: relative;
 	position: relative;
 	padding-top: 5%;
 	padding-bottom: 10%;
@@ -13,11 +16,7 @@
 	width: 100%;
 }
 .yewu .inner {
-	/*float: left;*/
 	width: 100%;
-	/*padding-top: 30px;*/
-	/*position: absolute;
-	top: 60px;*/
 }
 .yewu .inner h1 {
 	/*color: #fff;*/
@@ -39,19 +38,40 @@
 }
 .yewu .yewu-ion div {
 	display: inline-block;
+	padding: 0;
+}
+.yewu .yewu-ion div p.margin0 {
+	margin: 0;
 }
 .yewu .yewu-ion div img {
 	width: 100%;
 }
-
+.yewu .inner .center {
+	float: none;
+	margin: 0 auto;
+}
 
 /*============成功案例=============*/
 
 .case {
 	/*background: #1d1d1d;*/
 	background: url(../img/成功案例bg.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+    	position: relative;
 	padding-top: 5%;
 	padding-bottom: 10%;
+}
+.case .row .inner {
+	float: none;
+	margin: 0 auto;
+}
+.case .row .inner .row div {
+	padding: 0 2px;
+}
+.case .row .inner .row div img {
+	width: 100%;
 }
 .case h1 {
 	font-size: 28px;
@@ -88,6 +108,7 @@
 }
 .local-link>div {
 	display: inline-block;
+	padding: 0;
 }
 .local-link>div p {
 	color: #fff;
@@ -121,7 +142,9 @@
 .local .local-link .link-text {
 	display: inline-block;
 }
-
+ @media screen and (max-width: 768px) {
+	
+ }
 
 /*=============底部链接===================*/
 
@@ -129,7 +152,10 @@
 	background: #1d1d1d;
 	/*padding: 0!important;*/
 }
-
+.foot .row .inner {
+	float: none;
+	margin: 0 auto;
+}
 .foot .foot-nav {
 	text-align: center;
 	overflow: hidden;
@@ -137,8 +163,7 @@
     margin-bottom: 40px;
 }
 .foot .foot-nav>div {
-	/*display: inline-block;*/
-	/*float: left;*/
+	padding: 0;
 }
 
 .foot .foot-nav h3 {

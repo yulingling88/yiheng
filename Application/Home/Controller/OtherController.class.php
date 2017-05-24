@@ -7,7 +7,7 @@ class OtherController extends Controller {
         $this->display();
 
     }
-    public function hezuo(){
+    public function cooperation(){
 
         $this->display();
 

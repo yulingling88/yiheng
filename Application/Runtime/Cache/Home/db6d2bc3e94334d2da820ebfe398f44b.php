@@ -1,37 +1,34 @@
-<?php if (!defined('THINK_PATH')) exit();?><!-- 首页-产品服务-服务内容 -->
+<?php if (!defined('THINK_PATH')) exit();?><!-- 首页-联系我们-寻求合作 -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-	<meta name="description" content="">  
-	<meta name="author" content="">  
-	<title>易恒</title>
-	<link rel="stylesheet" href="/yiheng/Public/Home/css/reset.css">
-	<link rel="stylesheet" href="/yiheng/Public/Home/css/style.css">
-	<link rel="stylesheet" href="/yiheng/Public/Home/css/yewu.css">
-	<link rel="stylesheet" href="/yiheng/Public/Home/css/service.css">
-	<link rel="stylesheet" href="/yiheng/Public/Home/css/business.css">
-	<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
-	<link rel="stylesheet" href="/yiheng/Public/Home/css/bootstrap.css">
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta name="description" content="">  
+    <meta name="author" content="">  
+    <title>易恒</title>
+    <link rel="stylesheet" href="/yiheng/Public/Home/css/cooperation.css">
+    <link rel="stylesheet" href="/yiheng/Public/Home/css/reset.css">
+    <link rel="stylesheet" href="/yiheng/Public/Home/css/style.css">
+    <link rel="stylesheet" href="/yiheng/Public/Home/css/yewu.css">
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="/yiheng/Public/Home/css/bootstrap.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-	
-<!--头部导航 -->
 
-<div class="head container-fluid">
+	<div class="head container-fluid">
 		<!-- 导航条 -->
 		<!--<div class="row">-->
 			<div class="head-nav row">
 				<div class="head-logo col-lg-2 col-md-2 col-sm-2 col-xs-2 col-lg-offset-1 col-md-offset-1 col-xs-offset-1">
-					<img src="/yiheng/Public/Home/img/header_logo.png" alt="">
+					<img src="/yiheng/Public/Home/img/yhLogo.png" alt="">
 				</div>
 				<ul class="nav col-lg-7 col-md-8 col-sm-9 pull-right ">
 					<li class="active">
@@ -121,143 +118,43 @@
 			</div>
 		<!--</div>-->
 </div> 
-
-
-<!-- 头图 -->
-<div class="service-bg">
-	<img src="/yiheng/Public/Home/img/servicebeijing.jpg" alt="">
-	<div class="service-text center-block container">
-		<h1 class="">SERVICE</h1>
-		<div class="service-mokuai row">
-			<div class="col-lg-8 col-xs-8 row1">
-				<div class="row">
-					<a href="##" class="center-block mokuai col-lg-3 col-md-3  col-sm-3  col-xs-6 odd">
-						<!-- <span> -->
-							<p>服务模块</p>
-							<h2>ABOUT</h2>
-							<span class="color1"></span>
-						<!-- </span> -->
-					</a>
-					<a href="##" class="center-block mokuai col-lg-3 col-md-3  col-sm-3  col-xs-6 even">
-						<!-- <span> -->
-							<p>合作伙伴</p>
-							<h2>FAMILY</h2>
-							<span class="color2"></span>
-						<!-- </span> -->
-					</a>
-					<a href="##" class="center-block mokuai col-lg-3 col-md-3  col-sm-3  col-xs-6 odd">
-						<!-- <span> -->
-							<p>我们的优势</p>
-							<h2>ADVANTAGE</h2>
-							<span class="color3"></span>
-						<!-- </span> -->
-					</a>
-					<a href="##" class="center-block mokuai col-lg-3 col-md-3  col-sm-3  col-xs-6 even">
-						<!-- <span> -->
-							<p>服务案例</p>
-							<h2>CASES</h2>
-							<span class="color4"></span>
-						<!-- </span> -->
-					</a>
-				</div>
-			</div>
-			
+<!-- 背景图 -->
+	<div class="hezuo-bg">
+		<div class="hezuo-bg1">
+		</div>
+		<div class="hezuo-text">
+			<h1>COOPERATION</h1>
+			<h3>ECHOMOS</h3>
+			<h2>COOPERATION</h2>
+			<h4>寻求合作</h4>
 		</div>
 	</div>
-</div>
 
-<!-- 服务模块 -->
-<div class="service-module container-fluid">
-	<div class="row">
-		<div class="content col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<didv class="row">
-				<div class="col-lg-6 col-md-6 col-sm-6 left">
-					<h1>SERVICE</h1>
-					<span></span>
-					<div>
-						<h3>服务模块</h3>
-						<p>品牌全案代理、品牌代理B2B、品牌代理B2C</p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 right">
-					<ul>
-						<li>
-							<div class="num">
-								<i>1.</i>
-							</div>
-							<div class="text">
-								<h4>品牌全案代理</h4>
-								<p>包括健康品中国区/线上总代，由易恒健康与品牌企业签订合作协议，全面代理属下产品在线上的直销和分销的零售与灌流业务。</p>
-							</div>	
-						</li>
-						<li>
-							<div class="num">
-								<i>2.</i>
-							</div>
-							<div class="text">
-								<h4>品牌代理B2B</h4>
-								<p>包括以易恒健康为供货方，向京东、苏宁易购、一号店、亚马逊等自营模式的B2C商城进行货品供应和管理的业务形态。</p>
-							</div>	
-						</li>
-						<li>
-							<div class="num">
-								<i>3.</i>
-							</div>
-							<div class="text">
-								<h4>品牌代理B2C</h4>
-								<p>包括以易恒健康为经销主体，在天猫商城、唯品会等开设和运营品牌直营的旗舰店和专卖店等业务形态。</p>
-							</div>	
-						</li>
-						<li>
-							<div class="num">
-								<i>4.</i>
-							</div>
-							<div class="text">
-								<h4>BBC分销</h4>
-								<p>包括以易恒健康为分销主题，其中业务包括跨境一件代发，贸易批量采购、定制款集单。</p>
-							</div>	
-						</li>
-					</ul>
-				</div>
-			</didv>
-			
-		</div>
-	</div>
-</div>
-
-<!-- 专业系统 system -->
-
-<div class="system container-fluid">
-	<div class="row inner">
-		<div class="col-lg-9 col-sm-10 col-xs-10">
-			<h1>SYSTEM<span class="line"></span></h1>
-			<p>易恒健康代理运用的专业体系</p>
-			<div class="row content">
-				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-					<img src="/yiheng/Public/Home/img/service1.jpg" alt="">
-				</div>
-				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-					<img src="/yiheng/Public/Home/img/service2.jpg" alt="">
-				</div>
-				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-					<img src="/yiheng/Public/Home/img/service3.jpg" alt="">
-				</div>
-				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-					<img src="/yiheng/Public/Home/img/service4.jpg" alt="">
-				</div>
-				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-					<img src="/yiheng/Public/Home/img/service5.jpg" alt="">
-				</div>
-				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-					<img src="/yiheng/Public/Home/img/service6.jpg" alt="">
-				</div>
+	<div class="hezuo-form container-fluid">
+		<div class="row">
+			<div class="col-lg-7 col-md-9  col-sm-7 inner">
+				<form action="" class="row">
+					<input type="text" name="" id="" class="center-block col-lg-7 col-md-8  col-sm-8  col-xs-8" placeholder="您的联系方式:">
+					<input type="text" name="" id="" class="center-block col-lg-7 col-md-8  col-sm-8  col-xs-8" placeholder="您的邮箱:">
+					<textarea name="" id="" cols="30" rows="10" class="center-block col-lg-7 col-md-8 col-sm-8  col-xs-8" placeholder="您的合作意向:"></textarea>
+					<input type="button" value="登录" class="center-block but col-lg-3 col-md-4  col-sm-5 col-xs-5">
+				</form>
 			</div>
 		</div>
+		
+	</div>
+
+<!-- 全球分支 -->
+<div class="hezuo-local">
+	<h1>OUR GLOBAL NETWORK</h1>
+	<p>全球分支</p>
+	<div class="local-img">
+		<img src="/yiheng/Public/Home/img/map.jpg" alt="">
 	</div>
 </div>
 
 <!-- 联系我们 -->
-<div class="business-link container-fluid">
+<div class="hezuo-link container-fluid">
 	<div class="local-link row">
 		<div class="address col-lg-4 col-lg-offset-1">
 			<span></span>
@@ -282,6 +179,7 @@
 		</div>
 	</div>
 </div>
+
 
 <!--底部链接-->
 <div class="foot container-fluid">
@@ -346,11 +244,16 @@
 	</div>
 </div> 
 
-
 <!-- 引入js -->
-	<script src="/yiheng/Public/Home/js/jquery-1.12.4.min.js"></script>
-	<script src="/yiheng/Public/Home/js/bootstrap.js"></script>
-	<script src="/yiheng/Public/Home/js/head.js"></script>
+<script src="/yiheng/Public/Home/js/jquery-1.12.4.min.js"></script>
+<script src="/yiheng/Public/Home/js/bootstrap.js"></script>
+<script src="/yiheng/Public/Home/js/head.js"></script>
+<script src="/yiheng/Public/Home/js/jquery.placeholder.min.js"></script>
+<script>
+	$(function() {
+	        $("input textarea").placeholder();
+	 });
+</script>
 	<!--<script src="js/rem.js"></script>-->
 	<!--<script src="js/bootstrap.min.js"></script>-->
 </body>
