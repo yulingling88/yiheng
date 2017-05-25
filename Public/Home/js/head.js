@@ -3,12 +3,12 @@
 var h = $(".lun").height();
 $(window).scroll(function(){
 	if($(window).scrollTop()>h){
-		$('.head-nav').css({
-			"background":"rgba(0,0,0,.8)"
+		$('.head').css({
+			"background":"rgba(0,0,0,.9)"
 		});
 	}
 	else{
-		$('.head-nav').css({
+		$('.head').css({
 			"background":"transparent"
 		});
 	}
@@ -19,16 +19,17 @@ $(window).scroll(function(){
 /*===头部导航条 hover====*/
 // 八格
 $(".active").hover(function(){
-	$(this).children("span").css("display","block")
+	$(this).children("span").css("display","block");
+	$(this).children("a").css("background","transparent")
 	// $(this).children("ul").css("display","block")
 	$(this).children("ul").slideDown();
-	$(this).parents(".head-nav").css({
-		"background":"rgba(0,0,0,.3)"
+	$(this).parents(".head").css({
+		"background":"rgba(0,0,0,.9)"
 	})
 },function(){
 	$(this).children("span").css("display","none")
 	$(this).children("ul").slideUp();
-	$(this).parents(".head-nav").css({
+	$(this).parents(".head").css({
 		"background":"transparent"
 	})
 })
@@ -37,8 +38,8 @@ $(".active").hover(function(){
 $(".nav2-ion").on("click",function(){
 	// $(".nav2").children("ul").css("display","block")
 	$(".nav2").children("ul").slideToggle();
-	$(".head-nav").css({
-		"background":"rgba(0,0,0,.8)"
+	$("#head-bg").css({
+		"background":"rgba(0,0,0,.9)"
 	})
 
 })

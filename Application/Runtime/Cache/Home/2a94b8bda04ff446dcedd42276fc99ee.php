@@ -23,14 +23,86 @@
 
 <!--头部导航 -->
 
-<div class="head container-fluid">
+<div class="head container-fluid" id="head-bg">
 		<!-- 导航条 -->
-		<!--<div class="row">-->
+		<div class="row">
+			<div class="col-lg-8 col-md-11 col-sm-11  col-xs-11 inner">
 			<div class="head-nav row">
-				<div class="head-logo col-lg-2 col-md-2 col-sm-2 col-xs-2 col-lg-offset-1 col-md-offset-1 col-xs-offset-1">
+				<div class="head-logo col-lg-2 col-md-2 col-sm-2 col-xs-2">
 					<img src="/yiheng/Public/Home/img/yhLogo.png" alt="">
 				</div>
-				<ul class="nav col-lg-7 col-md-8 col-sm-9 pull-right ">
+
+				<div class="head-info col-lg-8 col-md-7 col-sm-7 col-xs-7">
+					<ul class="nav row">
+						<li class="col-lg-1 col-md-1 col-sm-1"></li>
+						<li class="active col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<a href="##">关于易恒</a>
+							<span class="one"></span>
+							<ul class="er-nav">
+								<li><a href="##">易恒</a></li>
+								<li><a href="<?php echo U('Other/history');?>">历史</a></li>
+								<li><a href="##">荣耀</a></li>
+							</ul>
+						</li>
+						<li class="active col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<a href="##">产品服务</a>
+							<span class="two"></span>
+							<ul class="er-nav">
+								<li><a href="<?php echo U('Other/service');?>">服务内容</a></li>
+								<li><a href="<?php echo U('Other/business');?>">合作伙伴</a></li>
+								<li><a href="##">我们的优势</a></li>
+								<li><a href="##">服务案例</a></li>
+								<li><a href="##">自有品牌</a></li>
+							</ul>
+						</li>
+						<li class="active col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<a href="##">新闻资讯</a>
+							<span class="three"></span>
+							<ul class="er-nav">
+								<li><a href="##">行业动态</a></li>
+								<li><a href="##">易恒新闻</a></li>
+							</ul>
+						</li>
+						<li class="active col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<a href="##">招纳贤士</a>
+							<span class="four"></span>
+							<ul class="er-nav">
+								<li><a href="##">热招职位</a></li>
+								<li><a href="##">选择易恒</a></li>
+								<li><a href="##">易恒小伙伴</a></li>
+							</ul>
+						</li>
+						<li class="active col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<a href="##">联系我们</a>
+							<span class="five"></span>
+							<ul class="er-nav">
+								<li><a href="<?php echo U('Other/cooperation');?>">寻求合作</a></li>
+								<li><a href="##">联系方式</a></li>
+							</ul>
+						</li>
+						<li class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></li>	
+					</ul>
+				</div>
+
+				<div class="head-ions col-lg-2 col-md-3 col-sm-3 col-xs-3">
+					<ul class="row">
+						<li class="dropdown col-lg-3 col-md-3 col-sm-3 col-xs-3">
+					      	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					        		<span class="guoqi"></span>
+					        		<span class="caret"></span>
+					      	</a>
+					      	<ul class="dropdown-menu">
+						        <li><img src="" alt=""></li>     
+					      	</ul>
+						</li>
+						<li class="phone col-lg-8 col-mg-8 col-sm-8 col-xs-8">
+							<span class="phone-ion"></span>
+							021-61132270
+						</li>	
+					</ul>
+				</div>
+				
+				<!-- <ul class="nav col-lg-7 col-md-8 col-sm-9 pull-right ">
 					<li class="active">
 						<a href="##">关于易恒</a>
 						<span class="one"></span>
@@ -89,7 +161,7 @@
 						<span class="phone-ion"></span>
 						021-61132270
 					</li>	
-				</ul>
+				</ul> -->
 				<!-- 导航栏nav2 -->
 				<div class="nav2 col-sm-2 col-xs-5 pull-right">
 					<span class="nav2-ion glyphicon glyphicon-th-list"></span>
@@ -116,7 +188,8 @@
 				</div>
 				<!--<div class="col-lg-1"></div>-->
 			</div>
-		<!--</div>-->
+			</div>
+		</div>
 </div> 			
 <!-- 轮播图 banner-->
 	
@@ -160,7 +233,7 @@
 	<h1 class="knowyi">了解易恒</h1>
 	<div class="session-yiheng container-fluid">
 		<div class="know row">
-			<div class="know-all col-lg-10 col-md-10 col-sm-12 col-xs-12">
+			<div class="know-all col-lg-9 col-md-10 col-sm-12 col-xs-12">
 				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 				<div class="odd col-lg-2 col-md-2 col-sm-2 col-xs-2">
 					<div>
@@ -207,7 +280,7 @@
 		<div class="hezuo row">
 			<h1>合作伙伴</h1>
 			<!--<a href="##" class="hezuo-more">more ></a>-->
-			<div class="hezuo-ion1 col-lg-8 col-md-10">
+			<div class="hezuo-ion1 col-lg-9 col-md-10">
 				<div>
 					<img src="/yiheng/Public/Home/img/logo_03.png" alt="" />
 				</div>
@@ -267,7 +340,7 @@
 			<p class="yewu-jieshao">易恒健康，专注于线上健康品销售，是互联网+大健康+跨境+020的健康产业垂直整合者。<br />公司成立于2002年，总部坐落于上海市商业中心徐汇区，在上海、广州、苏州、北京、香港等地设有办公点，以及在欧洲、美国、日本等国家设<br />有分支机构，同时咋上海、浙江、郑州等地设有恒温仓库。
 			</p>
 			<div class="row">
-				<div class="col-lg-9 col-md-10 center">
+				<div class="col-lg-8 col-md-10 center">
 					<div class="yewu-ion row">
 						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
 							<img src="/yiheng/Public/Home/img/yewu00.png" alt="" />
@@ -311,7 +384,7 @@
 	<div class="case container-fluid">
 		<h1>成功案例</h1>
 		<div class="row">
-			<div class="col-lg-9 col-md-10 inner">
+			<div class="col-lg-8 col-md-10 inner">
 				<div class="case-ion row" id="ions">
 					<div class="item col-lg-3 col-md-3  col-sm-3">
 						<img src="/yiheng/Public/Home/img/demo_03.jpg" alt="" />
@@ -355,7 +428,7 @@
 <!--全球办公地方-->
 
 	<div class="local container-fluid">
-		<img src="/yiheng/Public/Home/img/ditu.jpg" alt="" />
+		<img src="/yiheng/Public/Home/img/bangogndian.jpg" alt="" />
 		<div class="local-link row">
 			<div class="address col-lg-4 col-md-5 col-sm-6 col-lg-offset-1 col-md-offset-1">
 				<span></span>

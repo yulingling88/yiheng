@@ -7,22 +7,83 @@
 /*=====导航栏设置======*/
 .head.container-fluid {
 	width: 100%;
+	/*padding: 10px 0;*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+}
+.head.container-fluid>.row {
+	padding: 25px 0;
+}
+.head.container-fluid .inner {
+	float: none;
+	margin: 0 auto;
+	/*padding: 0;*/
+	color: #fff;
+}
+.head.container-fluid .inner .head-info {
+	text-align: center;
+	color: #fff;
+	margin-top: 9px;
+	padding: 0;
+}
+.head.container-fluid .inner .head-info li {
+	padding: 0;
+}
+.head.container-fluid .inner .head-info a {
+	font-size: 16px;
+	line-height: 30px;
+	color: #fff;
+	padding: 0;
+}
+.head ul.nav li.active span {
+	display: none;
+    width: 60px;
+    height: 3px;
+    background: #f6e73e;
+    margin: 0 auto;
+} 
+.head ul.nav li.active span.one {
+    background: #f6e73e;
+} 
+.head ul.nav li.active span.two {
+    background: #e60012;
+} 
+.head ul.nav li.active span.three {
+    background: #00ace5;
+} 
+.head ul.nav li.active span.four {
+    background: #f9b121;
+} 
+.head ul.nav li.active span.five {
+    background: #a4a9ac;
+}
+.head.container-fluid .inner .head-ions {
+	padding: 0;
+	margin-top: 12px;
+}
+.head.container-fluid .inner .head-ions .dropdown{
+	padding: 0;
+}
+
+
+
+.head.container-fluid .inner .head-ions .caret {
+	color: #fff;
+}
+.head.container-fluid .inner .head-ions .phone {
+	padding: 0;
+}
+/*.head.container-fluid {
+	width: 100%;
 	padding: 0;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 10000;
 }
-.head .row {
-	/*margin: 0 auto;
-	padding-top: 1px;*/
-}
-/*.head .inner {
-	margin: 0 auto;
-	max-width: 87%;
-	padding-top: 1px;
 
-}*/
 .head .head-nav {
 	overflow: hidden;
 	padding-top: 1%;
@@ -36,17 +97,12 @@
 }
 
 .head-nav ul.nav {
-	/*float: right;*/
 	line-height:40px;
-	/*display: flex;*/
-	/*justify-content: space-around;*/
 	padding: 0;
-	/**padding: 0;*/
 }
 .head-nav ul.nav li {
 	color: #fff;
 	position: relative;
-	/*padding: 0 2px;*/
 	float: left;
 	width: 75px;
 }
@@ -61,7 +117,6 @@
 	background: transparent;
 	text-align: center;
 	padding: 0;
-	/**padding: 0;*/
 	color: #fff;
 }
 .head ul.nav li.active span {
@@ -85,7 +140,7 @@
 } 
 .head ul.nav li.active span.five {
     background: #a4a9ac;
-} 
+} */
 /*二级导航栏*/
 ul.nav li ul.er-nav {
 	margin-top: 5px;
@@ -119,9 +174,7 @@ ul.nav li ul.er-nav {
 	vertical-align: middle;
 	background: url(../img/header_bg.png) -26px 1px no-repeat;
 }
-.head .active:hover .er-nav {
-	/*display: block;*/
-}
+
 /*替换nav2*/
 .head-nav .nav2 {
    	display: none;
@@ -147,6 +200,7 @@ ul.nav li ul.er-nav {
 	color: #fff;
 	line-height: 10%;
 	padding: 5px 0;
+	font-size: 14px!important;
 }
 .head-nav .nav2 ul a:hover {
 	text-decoration: none;
@@ -157,13 +211,16 @@ ul.nav li ul.er-nav {
 /*媒体查询*/
 @media screen and (max-width: 768px) {
    /*导航条*/
-   .head-nav .nav {
+   	.head-nav .nav {
    		display: none;
-   }
-   .head-nav .nav2 {
+   	}
+   	.head-nav .head-ions {
+   		display: none;
+   	}
+   	.head-nav .nav2 {
    		display: block;
    		vertical-align: middle;
-   }
+   	}
 
 
 }
@@ -202,8 +259,8 @@ ul.nav li ul.er-nav {
 }*/
 .lun .lun-pic li {
 	text-align: center;
-	padding-top: 180px;
-	padding-bottom: 406px;
+	padding-top: 220px;
+    padding-bottom: 315px;
 	color: #fff;
 	float：left;
 	display: none;
@@ -234,13 +291,18 @@ ul.nav li ul.er-nav {
 .lun .lun-pic a {
 	display: inline-block;
 	text-align: center;
-	padding: 5px 15px;
+	padding: 8px 30px;
 	/**padding: 0.5px 1.5px;*/
-	border: 2px solid #fff;
+	border: 2px solid #dad5d1;
 	font-weight: bold;
 	margin-top: 20px;
 	color: #fff;
 
+}
+.lun .lun-pic a span {
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: bold;
 }
 .lun .lun-pic a div {
 	display: inline-block;
@@ -282,19 +344,27 @@ ul.nav li ul.er-nav {
 	background: #717275;
 	cursor: pointer;
 }
-
+@media screen and (min-width: 1200px) {
+	.lun .lun-pic h1 {
+		font-size: 60px;
+	    font-weight: normal;
+	}
+	.lun .lun-pic p {
+		font-size: 18px;
+	}
+}
 /*=====了解易恒、合作伙伴====*/
 .knowyi {
 	color: #fff;
-    	font-size: 28px;
-    	position: relative;
-   	 top: -60px;
-    	text-align: center;
+   	font-size: 32px;
+    position: relative;
+   	top: -60px;
+    text-align: center;
 }
 .session-yiheng {
-	background: #000;
+	background: #1d1d1d;
 	overflow: hidden;
-	margin-top: -100px;
+	margin-top: -105px;
 }
 .session-yiheng .row .inner {
 	float: none;
@@ -340,10 +410,11 @@ ul.nav li ul.er-nav {
 }
 .know  p {
 	margin: 0;
+	font-size: 20px;
 }
 .know  h2 {
 	margin: 6px 0;
-	font-size:  20px;
+	font-size:  26px;
 }
 .know div span {
 	width: 24px;
@@ -390,6 +461,7 @@ ul.nav li ul.er-nav {
 /*合作伙伴*/
 .hezuo {
 	margin-top: 50px;
+	margin-bottom: 20px;
 }
 .hezuo h1 {
 	font-size: 28px;
@@ -403,6 +475,7 @@ ul.nav li ul.er-nav {
 }
 .hezuo .hezuo-ion1 div {
 	display: inline-block;
+	margin: 0 12px;
 	/*margin: 0 auto;*/
 }
 .hezuo .hezuo-ion1 div +div {
@@ -420,9 +493,9 @@ ul.nav li ul.er-nav {
 	margin-left: 2%;
 }
 
-.hezuo img {
+/*.hezuo img {
 	width: 90%;
-}
+}*/
 
 
 
