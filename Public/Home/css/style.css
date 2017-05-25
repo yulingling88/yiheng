@@ -203,7 +203,7 @@ ul.nav li ul.er-nav {
 .lun .lun-pic li {
 	text-align: center;
 	padding-top: 180px;
-	padding-bottom: 280px;
+	padding-bottom: 406px;
 	color: #fff;
 	float：left;
 	display: none;
@@ -241,6 +241,10 @@ ul.nav li ul.er-nav {
 	margin-top: 20px;
 	color: #fff;
 
+}
+.lun .lun-pic a div {
+	display: inline-block;
+	/*padding: 5px 15px;*/
 }
 .lun .lun-pic a:hover {
 	text-decoration: none;
@@ -350,10 +354,9 @@ ul.nav li ul.er-nav {
 	-moz-transition: width 0.5s ease-in-out;
 	-o-transition: width 0.5s ease-in-out;
 }
-.know .odd div:hover span,.know .even div:hover span {
+/*.know .odd div:hover span,.know .even div:hover span {
 	width: 100%;
-	/*color: #fff;*/
-}
+}*/
 .know div span.color1 {
 	background: #f9b121;
 }

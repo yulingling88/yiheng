@@ -91,7 +91,7 @@
 					</li>	
 				</ul>
 				<!-- 导航栏nav2 -->
-				<div class="nav2 col-sm-2 col-xs-2 pull-right">
+				<div class="nav2 col-sm-2 col-xs-5 pull-right">
 					<span class="nav2-ion glyphicon glyphicon-th-list"></span>
 					<ul>
 						<li><a href="##">关于易恒</a></li>
@@ -312,30 +312,38 @@
 		<h1>成功案例</h1>
 		<div class="row">
 			<div class="col-lg-9 col-md-10 inner">
-				<div class="case-ion row">
-					<div class="col-lg-3 col-md-3  col-sm-3">
+				<div class="case-ion row" id="ions">
+					<div class="item col-lg-3 col-md-3  col-sm-3">
 						<img src="/yiheng/Public/Home/img/demo_03.jpg" alt="" />
+						<div class="info">
+							<h4>1111</h4>
+							<p>2222</p>
+						</div>
 					</div>
-					<div class="col-lg-3 col-md-3  col-sm-3">
+					<div class="item col-lg-3 col-md-3  col-sm-3">
 						<img src="/yiheng/Public/Home/img/demo_05.jpg" alt="" />
+						<div class="info">
+							<h4>1111</h4>
+							<p>2222</p>
+						</div>
 					</div>
-					<div class="col-lg-3 col-md-3  col-sm-3">
+					<div class="item col-lg-3 col-md-3  col-sm-3">
 						<img src="/yiheng/Public/Home/img/demo_07.jpg" alt="" />
 					</div>
-					<div class="col-lg-3 col-md-3  col-sm-3">
+					<div class="item col-lg-3 col-md-3  col-sm-3">
 						<img src="/yiheng/Public/Home/img/demo_09.jpg" alt="" />
 					</div>
-					<div class="col-lg-3 col-md-3  col-sm-3">
+					<div class="item col-lg-3 col-md-3  col-sm-3">
 						<img src="/yiheng/Public/Home/img/demo_15.jpg" alt="" />
 					</div>
-					<div class="col-lg-3 col-md-3  col-sm-3">
+					<div class="item col-lg-3 col-md-3  col-sm-3">
 						<img src="/yiheng/Public/Home/img/demo_16.jpg" alt="" />
 					</div>
-					<div class="col-lg-3 col-md-3  col-sm-3">
+					<div class="item col-lg-3 col-md-3  col-sm-3">
 						<img src="/yiheng/Public/Home/img/demo_17.jpg" alt="" />
 					</div>
-					<div class="col-lg-3 col-md-3  col-sm-3">
-						<img src="/yiheng/Public/Home/img/demo_18.jpg" alt="" />
+					<div class="item col-lg-3 col-md-3  col-sm-3">
+						<a href="##"><img src="/yiheng/Public/Home/img/demo_18.jpg" alt="" /></a>
 					</div>
 				</div>
 			</div>

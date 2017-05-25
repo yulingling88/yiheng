@@ -45,6 +45,10 @@
 }
 .yewu .yewu-ion div img {
 	width: 100%;
+	margin-bottom: 10%;
+}
+.yewu .yewu-ion div p.ion-zn {
+	font-weight: bold;
 }
 .yewu .inner .center {
 	float: none;
@@ -84,11 +88,17 @@
 .case .case-ion {
 	text-align: center;
 }
-.case .case-ion div {
+.case .case-ion div.item {
 	display: inline-block;
 	margin-bottom: 5px;
 }
-
+.case .case-ion div.item .info {
+	display: none;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+	background: red;
+}
 
 /*===============全球办公点===============*/
 

@@ -108,11 +108,41 @@ $('.lun-num li').hover(function () {
 
 
 /*=======了解易恒=======*/
-// $(".know-all>div").mouseover(function(){
-// 	setTimeout(function(){
-// 		$(this).children("span").css("background","#fff")
-// 	},1000)
-// })
+$(".know-all>div").hover(function(){
+	var num = $(this).index();
+	if(num==1){
+		$(this).css("background","#f9b121")
+	}else if(num==2){
+		$(this).css("background","#e60012")
+	}else if(num==3){
+		$(this).css("background","#01b8af")
+	}else if(num==4){
+		$(this).css("background","#00ace5")
+	}else if(num==5){
+		$(this).css("background","#fd5420")
+	}
+	$(this).find("span").css({
+		"width":"100%",
+		"background":"#fff"
+	})
+},function(){
+	var num = $(this).index();
+	if(num==1){
+		$(this).css("background","")
+	}else if(num==2){
+		$(this).css("background","")
+	}else if(num==3){
+		$(this).css("background","")
+	}else if(num==4){
+		$(this).css("background","")
+	}else if(num==5){
+		$(this).css("background","")
+	}
+	$(this).find("span").css({
+		"width":"24px",
+		"background":""
+	})
+})
 
 
 
@@ -131,8 +161,27 @@ $(".yewu-ion>div").hover(function(){
 })
 
 
+// 成功案例--悬浮翻转
 
-
+// var turn = function(target,time,opts){
+// 	target.find(".item").hover(function(){
+// 		$(this).find('img').stop().animate(opts[0],time,function(){
+// 			$(this).hide().next().show();
+// 			$(this).next().animate(opts[1],time);
+// 		});
+// 	},function(){
+// 		$(this).find('.info').animate(opts[0],time,function(){
+// 			$(this).hide().prev().show();
+// 			$(this).prev().animate(opts[1],time);
+// 		});
+// 	});
+// }
+// var imgW = $(".case-ion>.item").width();
+// var imgH = $(".case-ion>.item").height();
+// $(".item").find(".info").css("height",imgH);
+// console.log(imgH);
+// var verticalOpts = [{'width':0},{'width':imgH}];
+// turn($('#ions'),100,verticalOpts);
 
 
 

@@ -351,6 +351,7 @@
 	<script src="/yiheng/Public/Home/js/jquery-1.12.4.min.js"></script>
 	<script src="/yiheng/Public/Home/js/bootstrap.js"></script>
 	<script src="/yiheng/Public/Home/js/head.js"></script>
+	<script src="/yiheng/Public/Home/js/service.js"></script>
 	<!--<script src="js/rem.js"></script>-->
 	<!--<script src="js/bootstrap.min.js"></script>-->
 </body>
